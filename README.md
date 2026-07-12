@@ -5,7 +5,7 @@ A powerful and flexible discount management plugin for WooCommerce that allows y
 ## 🎯 Features
 
 ### Core Features
-- **Multiple Discount Types**: Percentage, Fixed Amount, Price Override, BOGO, Free Shipping
+- **Multiple Discount Types**: Percentage, Fixed Amount, Price Override, BOGO, BXGY, Free Shipping
 - **Flexible Conditions**: Product, Category, User Role, Quantity, Cart Total, Date Range
 - **Priority System**: Control which discounts apply first with priority levels
 - **Stackable Discounts**: Allow multiple discounts to stack or apply only the best one
