@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Drop Shadow Filter -->
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/>
+      <feOffset in="blur" dx="4" dy="8" result="offsetBlur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.4"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="offsetBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Tag Body Gradient -->
+    <linearGradient id="tagGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff5f5f"/>
+      <stop offset="100%" stop-color="#c62828"/>
+    </linearGradient>
+
+    <!-- Metal Ring Gradient -->
+    <linearGradient id="metalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f0f0"/>
+      <stop offset="50%" stop-color="#888"/>
+      <stop offset="100%" stop-color="#f0f0f0"/>
+    </linearGradient>
+
+    <!-- String Gradient -->
+    <linearGradient id="stringGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e1"/>
+      <stop offset="100%" stop-color="#ffe0b2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Group Rotated -->
+  <g transform="rotate(115, 256, 256)">
+    
+    <!-- String Loop -->
+    <path d="M85,256 C85,256 50,256 30,256 C10,256 10,200 50,200 C80,200 120,220 120,220" 
+          fill="none" 
+          stroke="url(#stringGradient)" 
+          stroke-width="6" 
+          stroke-linecap="round"
+          filter="url(#dropShadow)"/>
+
+    <!-- Tag Shape -->
+    <path d="M120,166 L440,166 C456.57,166 470,179.43 470,196 L470,316 C470,332.57 456.57,346 440,346 L120,346 L50,256 Z" 
+          fill="url(#tagGradient)" 
+          filter="url(#dropShadow)"/>
+
+    <!-- Inner Highlight -->
+    <path d="M125,171 L435,171 C448,171 465,171 465,196 L465,220 C465,180 440,176 430,176 L130,176 L70,256 L65,256 L125,171 Z" 
+          fill="#ffffff" 
+          opacity="0.2"/>
+
+    <!-- Metal Ring -->
+    <circle cx="90" cy="256" r="18" fill="url(#metalGradient)"/>
+    <circle cx="90" cy="256" r="12" fill="#333" opacity="0.8"/>
+
+    <!-- SALE Text Flipped Vertically -->
+    <g transform="translate(290,225) scale(-1,-1)">
+      <text x="0" y="0" 
+            font-family="Arial, Helvetica, sans-serif"
+            font-weight="900" 
+            font-size="100" 
+            fill="#ffffff" 
+            text-anchor="middle"
+            letter-spacing="2"
+            style="text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+        SALE
+      </text>
+    </g>
+
+    <!-- Shine on Text -->
+    <path d="M180,256 L400,256 L380,220 L200,220 Z" fill="white" opacity="0.1" style="mix-blend-mode: overlay;"/>
+  </g>
+</svg>

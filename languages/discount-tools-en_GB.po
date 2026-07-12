@@ -1,0 +1,1599 @@
+# Translation file for Discount Tools
+# Copyright (C) 2025 Hugo Shih
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Discount Tools 1.0.6\n"
+"Report-Msgid-Bugs-To: https://hugoshih.eu.org/\n"
+"POT-Creation-Date: 2025-11-29 12:00:00+00:00\n"
+"PO-Revision-Date: 2025-11-29 12:00:00+00:00\n"
+"Last-Translator: Hugo Shih <hugo@hugoshih.eu.org>\n"
+"Language-Team: en_GB\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Custom Script 1.0\n"
+msgid "%d rules imported."
+msgstr ""
+
+msgid "%s OFF"
+msgstr ""
+
+msgid "%s OFF per item"
+msgstr ""
+
+msgid "%s%% OFF"
+msgstr ""
+
+msgid "(Product is A AND Cart total > $100) OR (Product is B AND User is VIP)"
+msgstr ""
+
+msgid "-- Select Condition --"
+msgstr ""
+
+msgid "AJAX error. Please check your connection."
+msgstr ""
+
+msgid "AND Logic:"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add Condition (AND)"
+msgstr ""
+
+msgid "Add Condition Group (OR)"
+msgstr ""
+
+msgid "Add Coupon"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "Add New Discount Rule"
+msgstr ""
+
+msgid "Add New Rule"
+msgstr ""
+
+msgid "Admin interface will be implemented in upcoming tasks."
+msgstr ""
+
+msgid "Administrator"
+msgstr ""
+
+msgid "Advanced Settings"
+msgstr ""
+
+msgid "Advanced options for performance tuning and troubleshooting."
+msgstr ""
+
+msgid "After Add to Cart Button"
+msgstr ""
+
+msgid "After Product Meta"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "All Rules"
+msgstr ""
+
+msgid "All Types"
+msgstr ""
+
+msgid "All Y items are given 100% FREE. Use Conditions tab to specify which products qualify."
+msgstr ""
+
+msgid "All conditions within a group must be true."
+msgstr ""
+
+msgid "Allow multiple discount rules to stack on the same product."
+msgstr ""
+
+msgid "Allow this rule to stack with other rules"
+msgstr ""
+
+msgid "An error occurred. Please try again."
+msgstr ""
+
+msgid "Applied Discounts"
+msgstr ""
+
+msgid "Applied:"
+msgstr ""
+
+msgid "Apply First (Before Other Discounts)"
+msgstr ""
+
+msgid "Apply Highest Discount Only"
+msgstr ""
+
+msgid "Apply Last (After Other Discounts)"
+msgstr ""
+
+msgid "Apply Lowest Discount Only"
+msgstr ""
+
+msgid "Apply bundle pricing repeatedly"
+msgstr ""
+
+msgid "Apply by Priority Order"
+msgstr ""
+
+msgid "Apply promotion repeatedly"
+msgstr ""
+
+msgid "Are you sure you want to delete %d rules?"
+msgstr ""
+
+msgid "Are you sure you want to delete this rule?"
+msgstr ""
+
+msgid "Are you sure you want to reset all settings to defaults? This cannot be undone."
+msgstr ""
+
+msgid "At least one group must have all conditions true."
+msgstr ""
+
+msgid "At least one tier is required."
+msgstr ""
+
+msgid "BOGO"
+msgstr ""
+
+msgid "BOGO discount value cannot be negative."
+msgstr ""
+
+msgid "BXGY discount value cannot be negative."
+msgstr ""
+
+msgid "Back to Rules"
+msgstr ""
+
+msgid "Background color for discount badges. Use gradient format like: linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+msgstr ""
+
+msgid "Badge"
+msgstr ""
+
+msgid "Badge Background Color"
+msgstr ""
+
+msgid "Badge Text"
+msgstr ""
+
+msgid "Basic Information"
+msgstr ""
+
+msgid "Before Add to Cart Button"
+msgstr ""
+
+msgid "Before Product Meta"
+msgstr ""
+
+msgid "Between operator requires exactly 2 values."
+msgstr ""
+
+msgid "Both Active"
+msgstr ""
+
+msgid "Brand"
+msgstr ""
+
+msgid "Brand taxonomy not found"
+msgstr ""
+
+msgid "Bulk action failed."
+msgstr ""
+
+msgid "Bundle (Set) Discount"
+msgstr ""
+
+msgid "Bundle Configuration"
+msgstr ""
+
+msgid "Bundle Price"
+msgstr ""
+
+msgid "Bundle Quantity"
+msgstr ""
+
+msgid "Bundle price cannot be negative."
+msgstr ""
+
+msgid "Bundle: 2 items for $149 (Repeating)"
+msgstr ""
+
+msgid "Buy %1$s+ and save %2$s%% - Only %3$s each!"
+msgstr ""
+
+msgid "Buy %d Get %d Free - %s"
+msgstr ""
+
+msgid "Buy %d Get %d at %.0f%% Off - %s"
+msgstr ""
+
+msgid "Buy %d Get %d with $%.2f Off - %s"
+msgstr ""
+
+msgid "Buy 2 Get 1 Free (Repeating) = Buy Quantity: 2, Get Quantity: 1, Repeating: Checked"
+msgstr ""
+
+msgid "Buy 3 Get 2 Free (Repeating) = Buy Quantity: 3, Get Quantity: 2, Repeating: Checked"
+msgstr ""
+
+msgid "Buy 5 Get 1 Free (One-time) = Buy Quantity: 5, Get Quantity: 1, Repeating: Unchecked"
+msgstr ""
+
+msgid "Buy Quantity (X)"
+msgstr ""
+
+msgid "Buy X Get X (Same Product)"
+msgstr ""
+
+msgid "Buy X Get X (Same Product): Each product qualifies independently. Example: Buy 2 Get 1 Free, buy 6 units = 2 units free."
+msgstr ""
+
+msgid "Buy X Get Y (Any Product): Combine all qualifying items, discount cheapest items. Example: Buy 2 Get 1 Free with 6 total items = 2 cheapest items free."
+msgstr ""
+
+msgid "Buy X Get Y (Any Qualifying Product)"
+msgstr ""
+
+msgid "Buy X Get Y Configuration"
+msgstr ""
+
+msgid "Cache Duration"
+msgstr ""
+
+msgid "Cache discount calculations for this many seconds (0 to disable caching)."
+msgstr ""
+
+msgid "Cache duration in seconds. Set to 0 to disable caching."
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "Cart & Checkout Display"
+msgstr ""
+
+msgid "Cart Discount"
+msgstr ""
+
+msgid "Cart Page"
+msgstr ""
+
+msgid "Cart Quantity"
+msgstr ""
+
+msgid "Cart Total"
+msgstr ""
+
+msgid "Cart-Level Discounts:"
+msgstr ""
+
+msgid "Checkout Page"
+msgstr ""
+
+msgid "Choose a clear name to easily identify this rule in the list."
+msgstr ""
+
+msgid "Choose a product to test the discount calculation."
+msgstr ""
+
+msgid "Color for custom discount messages."
+msgstr ""
+
+msgid "Comma-separated category IDs"
+msgstr ""
+
+msgid "Comma-separated product IDs"
+msgstr ""
+
+msgid "Condition Group"
+msgstr ""
+
+msgid "Condition Group %d"
+msgstr ""
+
+msgid "Condition type is required."
+msgstr ""
+
+msgid "Condition value is required."
+msgstr ""
+
+msgid "Conditions"
+msgstr ""
+
+msgid "Conditions functionality will be available in the next update."
+msgstr ""
+
+msgid "Configure general plugin behavior and discount application rules."
+msgstr ""
+
+msgid "Configure how discounts are displayed to customers across your store."
+msgstr ""
+
+msgid "Configure how the discount should be calculated and applied."
+msgstr ""
+
+msgid "Configure the Buy X Get Y promotion details."
+msgstr ""
+
+msgid "Configure the basic settings for this discount rule."
+msgstr ""
+
+msgid "Configure whether discount information appears on product pages. Display position and style are controlled globally in Settings."
+msgstr ""
+
+msgid "Congratulations! You're Saving Money!"
+msgstr ""
+
+msgid "Control discount visibility in cart and checkout."
+msgstr ""
+
+msgid "Control how WooCommerce coupons and Discount Tools rules interact. Both Active: allow both to apply simultaneously. Coupons Only: disable plugin discounts when any coupon is used. Discount Tools Only: prevent customers from using coupons (plugin rules take priority)."
+msgstr ""
+
+msgid "Control how many times this discount can be used."
+msgstr ""
+
+msgid "Control when this plugin applies discounts relative to other discount plugins."
+msgstr ""
+
+msgid "Controls how multiple applicable rules interact. \"Priority\" uses the priority number set in each rule. \"Highest/Lowest\" calculates and applies the best discount. \"Stack All\" combines all discounts."
+msgstr ""
+
+msgid "Coupon & Discount Interaction"
+msgstr ""
+
+msgid "Coupon Activation Code"
+msgstr ""
+
+msgid "Coupon Code"
+msgstr ""
+
+msgid "Coupons Only, Disable Discount Tools"
+msgstr ""
+
+msgid "Coupons are currently disabled. Discount rules are active."
+msgstr ""
+
+msgid "Create Rule"
+msgstr ""
+
+msgid "Create Your First Rule"
+msgstr ""
+
+msgid "Create powerful discount rules for your WooCommerce store."
+msgstr ""
+
+msgid "Create quantity-based discount tiers (e.g., buy 3 get 10%, buy 5 get 20%)."
+msgstr ""
+
+msgid "Current Usage"
+msgstr ""
+
+msgid "Custom Messages"
+msgstr ""
+
+msgid "Custom validator \"%s\" error: %s"
+msgstr ""
+
+msgid "Custom validator \"%s\" failed."
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Customize discount messages shown to customers."
+msgstr ""
+
+msgid "Date Range"
+msgstr ""
+
+msgid "Date Range (Optional)"
+msgstr ""
+
+msgid "Date Range:"
+msgstr ""
+
+msgid "Date/Time"
+msgstr ""
+
+msgid "Day of Week"
+msgstr ""
+
+msgid "Deactivate"
+msgstr ""
+
+msgid "Debug Mode"
+msgstr ""
+
+msgid "Default Priority"
+msgstr ""
+
+msgid "Default priority for new rules."
+msgstr ""
+
+msgid "Define when this discount rule should be applied. Conditions within a group use AND logic, while groups are combined with OR logic."
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Data on Uninstall"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Determines how WooCommerce coupons interact with discount rules. \"Both Active\" allows both to work together. \"Coupons Only\" disables this plugin when a coupon is applied. \"Discount Tools Only\" prevents WooCommerce coupons from being used."
+msgstr ""
+
+msgid "Discount"
+msgstr ""
+
+msgid "Discount Amount"
+msgstr ""
+
+msgid "Discount Configuration"
+msgstr ""
+
+msgid "Discount Priority"
+msgstr ""
+
+msgid "Discount Reports"
+msgstr ""
+
+msgid "Discount Rules"
+msgstr ""
+
+msgid "Discount Tools"
+msgstr ""
+
+msgid "Discount Tools Only, Disable Coupons"
+msgstr ""
+
+msgid "Discount Tools Settings"
+msgstr ""
+
+msgid "Discount Tools requires PHP version 7.4 or higher."
+msgstr ""
+
+msgid "Discount Tools requires WooCommerce to be installed and active."
+msgstr ""
+
+msgid "Discount Tools requires WordPress version 5.8 or higher."
+msgstr ""
+
+msgid "Discount Type"
+msgstr ""
+
+msgid "Discount Value"
+msgstr ""
+
+msgid "Discount over 100% will result in negative prices."
+msgstr ""
+
+msgid "Discount type is required."
+msgstr ""
+
+msgid "Discount value cannot be negative."
+msgstr ""
+
+msgid "Discount value is required."
+msgstr ""
+
+msgid "Discount value must be a positive number."
+msgstr ""
+
+msgid "Discount value must be non-negative."
+msgstr ""
+
+msgid "Discount:"
+msgstr ""
+
+msgid "Discounts"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Display Position"
+msgstr ""
+
+msgid "Display Settings"
+msgstr ""
+
+msgid "Display Style"
+msgstr ""
+
+msgid "Display discount details in shopping cart"
+msgstr ""
+
+msgid "Display discount information on product pages"
+msgstr ""
+
+msgid "Display position and style are managed in %s"
+msgstr ""
+
+msgid "Display settings are saved but frontend implementation will be completed in Phase 6 (Tasks 22-24). This includes discount tables, cart messages, and styling options."
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "Each group must have at least one condition."
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit Discount Rule"
+msgstr ""
+
+msgid "Email (optional)"
+msgstr ""
+
+msgid "Enable Plugin"
+msgstr ""
+
+msgid "Enable activity logging"
+msgstr ""
+
+msgid "Enable debug logging for troubleshooting. Logs are written to WP Debug Log."
+msgstr ""
+
+msgid "Enable debug mode"
+msgstr ""
+
+msgid "Enable discount rules functionality"
+msgstr ""
+
+msgid "Enable or disable the discount functionality globally."
+msgstr ""
+
+msgid "Enable stacking to allow multiple discounts to apply together. Disable to make this rule exclusive."
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "End Date & Time"
+msgstr ""
+
+msgid "End date must be after start date."
+msgstr ""
+
+msgid "Enter \"yes\" or \"no\""
+msgstr ""
+
+msgid "Enter a descriptive name for this discount rule (for internal use only)."
+msgstr ""
+
+msgid "Enter a descriptive name for this discount rule."
+msgstr ""
+
+msgid "Enter category IDs (e.g., 10, 20)"
+msgstr ""
+
+msgid "Enter product IDs (e.g., 123, 456, 789)"
+msgstr ""
+
+msgid "Enter role slugs (e.g., customer, subscriber)"
+msgstr ""
+
+msgid "Enter the cart subtotal amount"
+msgstr ""
+
+msgid "Enter the discount value (e.g., 20 for 20% or $20)"
+msgstr ""
+
+msgid "Enter the discount value (percentage or amount)."
+msgstr ""
+
+msgid "Enter the total number of items"
+msgstr ""
+
+msgid "Error deleting rule."
+msgstr ""
+
+msgid "Error duplicating rule: %s"
+msgstr ""
+
+msgid "Error saving rule: %s"
+msgstr ""
+
+msgid "Error toggling rule: %s"
+msgstr ""
+
+msgid "Error: Stacking and Repeating cannot be used together for BXGY discounts."
+msgstr ""
+
+msgid "Example:"
+msgstr ""
+
+msgid "Example: \"You saved $10.00 with this discount!\""
+msgstr ""
+
+msgid "Examples:"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Export Settings"
+msgstr ""
+
+msgid "Export failed."
+msgstr ""
+
+msgid "Export failed. Please try again."
+msgstr ""
+
+msgid "Export your current settings as a JSON file for backup or migration."
+msgstr ""
+
+msgid "FREE PRODUCT"
+msgstr ""
+
+msgid "Failed to save rule. Please try again."
+msgstr ""
+
+msgid "Failed to update rule status."
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Final Price"
+msgstr ""
+
+msgid "Final:"
+msgstr ""
+
+msgid "Fixed Amount"
+msgstr ""
+
+msgid "Fixed Amount Discount"
+msgstr ""
+
+msgid "Fixed Amount: Enter the discount amount in %s. Example: 10 = %s discount"
+msgstr ""
+
+msgid "Fixed discount amount cannot be negative."
+msgstr ""
+
+msgid "Fixed price for the bundle. Example: 149 for \"$149 for 2 items\""
+msgstr ""
+
+msgid "Font size for custom messages (in pixels)."
+msgstr ""
+
+msgid "From:"
+msgstr ""
+
+msgid "Gap detected between tiers."
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Get %1$s when your order reaches %2$s"
+msgstr ""
+
+msgid "Get Quantity (Y)"
+msgstr ""
+
+msgid "Get Started with Discount Tools"
+msgstr ""
+
+msgid "Gift Products (Y Items)"
+msgstr ""
+
+msgid "Guest (Not logged in)"
+msgstr ""
+
+msgid "Higher numbers = higher priority (1-100). Default: 10"
+msgstr ""
+
+msgid "Higher numbers = higher priority. Range: 1-100."
+msgstr ""
+
+msgid "Higher priority rules are evaluated first. Use priority to control which discount applies when multiple rules match."
+msgstr ""
+
+msgid "How Preview Works"
+msgstr ""
+
+msgid "How to display the discount information to customers."
+msgstr ""
+
+msgid "If enabled, this discount can be combined with other stackable discounts."
+msgstr ""
+
+msgid "Import / Export Settings"
+msgstr ""
+
+msgid "Import Settings"
+msgstr ""
+
+msgid "Import failed."
+msgstr ""
+
+msgid "Import failed. Please try again."
+msgstr ""
+
+msgid "Import settings from a previously exported JSON file."
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Insufficient permissions."
+msgstr ""
+
+msgid "Invalid JSON data."
+msgstr ""
+
+msgid "Invalid JSON file."
+msgstr ""
+
+msgid "Invalid action."
+msgstr ""
+
+msgid "Invalid bulk action."
+msgstr ""
+
+msgid "Invalid condition configuration."
+msgstr ""
+
+msgid "Invalid condition object."
+msgstr ""
+
+msgid "Invalid condition type."
+msgstr ""
+
+msgid "Invalid discount type."
+msgstr ""
+
+msgid "Invalid operator."
+msgstr ""
+
+msgid "Invalid request."
+msgstr ""
+
+msgid "Invalid rule ID."
+msgstr ""
+
+msgid "Invalid rule status."
+msgstr ""
+
+msgid "Invalid rule type."
+msgstr ""
+
+msgid "Invalid settings format."
+msgstr ""
+
+msgid "Leave empty for no end date restriction."
+msgstr ""
+
+msgid "Leave empty for no start date restriction."
+msgstr ""
+
+msgid "Limit how many times each customer can use this discount."
+msgstr ""
+
+msgid "Log discount rule applications for debugging."
+msgstr ""
+
+msgid "Logging"
+msgstr ""
+
+msgid "Logic Guide"
+msgstr ""
+
+msgid "Max discount cannot be negative."
+msgstr ""
+
+msgid "Maximum number of times this discount can be used in total. Leave empty for unlimited."
+msgstr ""
+
+msgid "Maximum number of times this rule can be used across all customers. 0 = unlimited."
+msgstr ""
+
+msgid "Maximum number of times this rule can be used. Leave 0 for unlimited."
+msgstr ""
+
+msgid "Message Font Size"
+msgstr ""
+
+msgid "Message Text Color"
+msgstr ""
+
+msgid "Min discount cannot be greater than max discount."
+msgstr ""
+
+msgid "Min discount cannot be negative."
+msgstr ""
+
+msgid "Mixing stackable and non-stackable rules may cause unexpected behavior."
+msgstr ""
+
+msgid "Multiple rules have the same priority: %s"
+msgstr ""
+
+msgid "No date restrictions"
+msgstr ""
+
+msgid "No discount rules found. Create your first rule to get started!"
+msgstr ""
+
+msgid "No results found"
+msgstr ""
+
+msgid "No rules found."
+msgstr ""
+
+msgid "No rules selected."
+msgstr ""
+
+msgid "No settings data provided."
+msgstr ""
+
+msgid "Non-stackable rules conflict."
+msgstr ""
+
+msgid "Note:"
+msgstr ""
+
+msgid "Number of items customer gets discounted. Example: 1 for \"Get 1\""
+msgstr ""
+
+msgid "Number of items customer must buy. Example: 2 for \"Buy 2\""
+msgstr ""
+
+msgid "Number of items in the bundle. Example: 2 for \"2 items for $149\""
+msgstr ""
+
+msgid "Number of items to test."
+msgstr ""
+
+msgid "Number of orders where this discount has been applied."
+msgstr ""
+
+msgid "Number of times this discount has been used so far."
+msgstr ""
+
+msgid "OFF"
+msgstr ""
+
+msgid "OR"
+msgstr ""
+
+msgid "OR Logic:"
+msgstr ""
+
+msgid "Only %d uses remaining before this rule reaches its limit."
+msgstr ""
+
+msgid "Only active rules will be applied to orders."
+msgstr ""
+
+msgid "Operator is required."
+msgstr ""
+
+msgid "Optional description for reference"
+msgstr ""
+
+msgid "Optional description to help you remember what this rule is for."
+msgstr ""
+
+msgid "Optional: Limit this rule to a specific time period."
+msgstr ""
+
+msgid "Original Price"
+msgstr ""
+
+msgid "Original:"
+msgstr ""
+
+msgid "Override"
+msgstr ""
+
+msgid "Override Price"
+msgstr ""
+
+msgid "Override Price: Set a new fixed price for the product. Original price will be replaced."
+msgstr ""
+
+msgid "Override price cannot be negative."
+msgstr ""
+
+msgid "Payment Method"
+msgstr ""
+
+msgid "Per-User Limits"
+msgstr ""
+
+msgid "Per-user limit exceeds total limit."
+msgstr ""
+
+msgid "Per-user usage limit cannot be negative."
+msgstr ""
+
+msgid "Per-user usage limits will be available in a future update. For now, use coupon codes for per-user restrictions."
+msgstr ""
+
+msgid "Percentage"
+msgstr ""
+
+msgid "Percentage Discount (%)"
+msgstr ""
+
+msgid "Percentage discount cannot exceed 100%."
+msgstr ""
+
+msgid "Percentage discount must be between 0 and 100."
+msgstr ""
+
+msgid "Percentage: Enter a value between 0 and 100. Example: 20 = 20% discount"
+msgstr ""
+
+msgid "Perfect for seasonal sales or limited-time promotions. Rules automatically activate and deactivate based on dates."
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Please enter 2 or more characters"
+msgstr ""
+
+msgid "Please select a product first."
+msgstr ""
+
+msgid "Please use the Settings link in the Discount Tools menu."
+msgstr ""
+
+msgid "Preview Changes"
+msgstr ""
+
+msgid "Preview Results"
+msgstr ""
+
+msgid "Preview failed. Please try again."
+msgstr ""
+
+msgid "Preview functionality requires the Rule Engine to be fully implemented. This feature will be completed in Phase 3 (Task 11)."
+msgstr ""
+
+msgid "Preview uses current rule settings (save changes first for accurate results)."
+msgstr ""
+
+msgid "Price Override"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "Priority must be a non-negative number."
+msgstr ""
+
+msgid "Priority must be between 1 and 100."
+msgstr ""
+
+msgid "Priority:"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Product Attribute"
+msgstr ""
+
+msgid "Product Category"
+msgstr ""
+
+msgid "Product Discount"
+msgstr ""
+
+msgid "Product Page"
+msgstr ""
+
+msgid "Product Page Display"
+msgstr ""
+
+msgid "Product Tag"
+msgstr ""
+
+msgid "Product-Level Discounts:"
+msgstr ""
+
+msgid "Product: Applies to individual products. Cart: Applies to entire cart."
+msgstr ""
+
+msgid "Purchase History"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Quick Tips"
+msgstr ""
+
+msgid "Reason:"
+msgstr ""
+
+msgid "Recent Usage"
+msgstr ""
+
+msgid "Regular Price: $115 per item"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove Condition"
+msgstr ""
+
+msgid "Remove Group"
+msgstr ""
+
+msgid "Remove all plugin data when the plugin is uninstalled."
+msgstr ""
+
+msgid "Repeating Bundle"
+msgstr ""
+
+msgid "Repeating Promotion"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Reports page will be implemented in upcoming tasks."
+msgstr ""
+
+msgid "Reset Settings"
+msgstr ""
+
+msgid "Reset failed."
+msgstr ""
+
+msgid "Reset failed. Please try again."
+msgstr ""
+
+msgid "Reset to Defaults"
+msgstr ""
+
+msgid "Restrict how many times this discount can be used."
+msgstr ""
+
+msgid "Result: 2 items = $149 (save $81), 3 items = $149 + $115 = $264, 4 items = $149 + $149 = $298"
+msgstr ""
+
+msgid "Rule Application Strategy"
+msgstr ""
+
+msgid "Rule Configuration"
+msgstr ""
+
+msgid "Rule Name"
+msgstr ""
+
+msgid "Rule Name:"
+msgstr ""
+
+msgid "Rule Preview"
+msgstr ""
+
+msgid "Rule Type"
+msgstr ""
+
+msgid "Rule activated successfully."
+msgstr ""
+
+msgid "Rule conditions are NOT met."
+msgstr ""
+
+msgid "Rule conditions are met!"
+msgstr ""
+
+msgid "Rule created successfully."
+msgstr ""
+
+msgid "Rule deactivated successfully."
+msgstr ""
+
+msgid "Rule deleted successfully."
+msgstr ""
+
+msgid "Rule duplicated successfully."
+msgstr ""
+
+msgid "Rule has no conditions. It will apply to all orders."
+msgstr ""
+
+msgid "Rule name is required."
+msgstr ""
+
+msgid "Rule not found."
+msgstr ""
+
+msgid "Rule type is required."
+msgstr ""
+
+msgid "Rule updated successfully."
+msgstr ""
+
+msgid "Rule:"
+msgstr ""
+
+msgid "Rules"
+msgstr ""
+
+msgid "Rules \"%s\" and \"%s\" may overlap."
+msgstr ""
+
+msgid "Run Preview"
+msgstr ""
+
+msgid "SALE!"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Save {discount}"
+msgstr ""
+
+msgid "Savings"
+msgstr ""
+
+msgid "Savings Message Template"
+msgstr ""
+
+msgid "Scheduled"
+msgstr ""
+
+msgid "Search Rules"
+msgstr ""
+
+msgid "Search brands..."
+msgstr ""
+
+msgid "Search categories..."
+msgstr ""
+
+msgid "Search for products to give as gifts..."
+msgstr ""
+
+msgid "Search products..."
+msgstr ""
+
+msgid "Searching..."
+msgstr ""
+
+msgid "Security check failed."
+msgstr ""
+
+msgid "See which orders used this discount, total savings, and more."
+msgstr ""
+
+msgid "Select a product and quantity to test."
+msgstr ""
+
+msgid "Select a product..."
+msgstr ""
+
+msgid "Select the type of discount rule."
+msgstr ""
+
+msgid "Select the type of discount to apply."
+msgstr ""
+
+msgid "Select which products can be given as gifts. These will automatically be added to the cart when customer qualifies. Leave empty to allow any product from Conditions tab."
+msgstr ""
+
+msgid "Set up bundle pricing - buy multiple items at a fixed bundle price"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Settings exported successfully!"
+msgstr ""
+
+msgid "Settings imported successfully."
+msgstr ""
+
+msgid "Settings reset to defaults."
+msgstr ""
+
+msgid "Settings saved successfully."
+msgstr ""
+
+msgid "Shipping City"
+msgstr ""
+
+msgid "Shipping Postcode"
+msgstr ""
+
+msgid "Shipping State"
+msgstr ""
+
+msgid "Show Original Price"
+msgstr ""
+
+msgid "Show Savings Message"
+msgstr ""
+
+msgid "Show detailed debug information. Only for development."
+msgstr ""
+
+msgid "Show discount details in cart"
+msgstr ""
+
+msgid "Show discount table on product pages"
+msgstr ""
+
+msgid "Show in Cart"
+msgstr ""
+
+msgid "Show on Product Page"
+msgstr ""
+
+msgid "Show the original price with strikethrough when discount is applied."
+msgstr ""
+
+msgid "Show total savings message in cart"
+msgstr ""
+
+msgid "Show total savings on checkout"
+msgstr ""
+
+msgid "Stack All Applicable Discounts"
+msgstr ""
+
+msgid "Stack Multiple Discounts"
+msgstr ""
+
+msgid "Stackable"
+msgstr ""
+
+msgid "Stackable with other rules"
+msgstr ""
+
+msgid "Stacking"
+msgstr ""
+
+msgid "Stacking:"
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "Start Date & Time"
+msgstr ""
+
+msgid "Start date is in the past."
+msgstr ""
+
+msgid "Start date must be before end date."
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Subscriber"
+msgstr ""
+
+msgid "Tab content for \"%s\" is not yet implemented."
+msgstr ""
+
+msgid "Test Product"
+msgstr ""
+
+msgid "Test as different user roles."
+msgstr ""
+
+msgid "Test how this discount rule will apply to different products and scenarios."
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Text to show on discount badge. Leave empty for default."
+msgstr ""
+
+msgid "The preview will show if the rule conditions are met."
+msgstr ""
+
+msgid "This rule expired %s ago."
+msgstr ""
+
+msgid "This rule has already expired."
+msgstr ""
+
+msgid "This rule has reached its usage limit and will not be applied to new orders."
+msgstr ""
+
+msgid "This rule is currently active and will end in %s."
+msgstr ""
+
+msgid "This rule is scheduled to start in %s."
+msgstr ""
+
+msgid "Tier discount cannot be negative."
+msgstr ""
+
+msgid "Tier discount value is required."
+msgstr ""
+
+msgid "Tier max must be greater than or equal to min."
+msgstr ""
+
+msgid "Tier min quantity cannot be negative."
+msgstr ""
+
+msgid "Tier min quantity is required."
+msgstr ""
+
+msgid "Tiered Discounts"
+msgstr ""
+
+msgid "Tiered discount features will be available in a future update. This will allow you to create multiple discount levels based on quantity purchased."
+msgstr ""
+
+msgid "Tiered/bulk discount requires an array of tiers."
+msgstr ""
+
+msgid "Times Used"
+msgstr ""
+
+msgid "Total Savings"
+msgstr ""
+
+msgid "Total Savings:"
+msgstr ""
+
+msgid "Total Usage Limit"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Type to search products..."
+msgstr ""
+
+msgid "Type:"
+msgstr ""
+
+msgid "Unlimited"
+msgstr ""
+
+msgid "Until:"
+msgstr ""
+
+msgid "Update Rule"
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+msgid "Usage Limit"
+msgstr ""
+
+msgid "Usage Limit (Optional)"
+msgstr ""
+
+msgid "Usage Limits"
+msgstr ""
+
+msgid "Usage limit cannot be negative."
+msgstr ""
+
+msgid "Usage limit has been reached."
+msgstr ""
+
+msgid "Usage limit must be a positive number or zero for unlimited."
+msgstr ""
+
+msgid "Usage limit must be at least 1."
+msgstr ""
+
+msgid "Use Conditions tab to specify which products qualify for bundle pricing. Frontend will show strikethrough original price and highlighted bundle price."
+msgstr ""
+
+msgid "Use {amount} as placeholder for savings amount. Leave empty for default."
+msgstr ""
+
+msgid "User Email"
+msgstr ""
+
+msgid "User Logged In"
+msgstr ""
+
+msgid "User Role"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Value array cannot be empty."
+msgstr ""
+
+msgid "Value must be an array for this operator."
+msgstr ""
+
+msgid "Very large discount amount. Please verify."
+msgstr ""
+
+msgid "View Detailed Usage Report"
+msgstr ""
+
+msgid "Volume Discounts"
+msgstr ""
+
+msgid "Warning: Stacking and Repeating cannot be used together for BXGY discounts. Repeating will be disabled."
+msgstr ""
+
+msgid "Warning: This will reset all settings to their default values. This action cannot be undone."
+msgstr ""
+
+msgid "When checked: 4 items = 2 bundles. When unchecked: only first 2 items get bundle price, 3rd and 4th at regular price."
+msgstr ""
+
+msgid "When checked: Buy 2 Get 1 Free, purchasing 6 items = 2 free items (repeats). When unchecked: only applies once (6 items = 1 free item)."
+msgstr ""
+
+msgid "When multiple rules match, determine which rule(s) to apply. Priority: use rule priority field. Highest: calculate and apply the rule with maximum discount. Lowest: apply the rule with minimum discount. Stack All: apply all matching rules cumulatively."
+msgstr ""
+
+msgid "Where to display discount information on product pages."
+msgstr ""
+
+msgid "You Saved"
+msgstr ""
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+msgid "You have %d stackable rules. This may result in very large discounts."
+msgstr ""
+
+msgid "You must have at least one condition group."
+msgstr ""
+
+msgid "You saved {amount}!"
+msgstr ""
+
+msgid "You'll see the original price, discount amount, and final price."
+msgstr ""
+
+msgid "applied your shopping cart"
+msgstr ""
+
+msgid "contains"
+msgstr ""
+
+msgid "does not contain"
+msgstr ""
+
+msgid "does not equal"
+msgstr ""
+
+msgid "e.g., Summer Sale 20% Off"
+msgstr ""
+
+msgid "ends with"
+msgstr ""
+
+msgid "equals"
+msgstr ""
+
+msgid "greater or equal"
+msgstr ""
+
+msgid "greater than"
+msgstr ""
+
+msgid "in list"
+msgstr ""
+
+msgid "is between"
+msgstr ""
+
+msgid "is empty"
+msgstr ""
+
+msgid "is greater than"
+msgstr ""
+
+msgid "is greater than or equal to"
+msgstr ""
+
+msgid "is less than"
+msgstr ""
+
+msgid "is less than or equal to"
+msgstr ""
+
+msgid "is not between"
+msgstr ""
+
+msgid "is not empty"
+msgstr ""
+
+msgid "is not one of"
+msgstr ""
+
+msgid "is one of"
+msgstr ""
+
+msgid "less or equal"
+msgstr ""
+
+msgid "less than"
+msgstr ""
+
+msgid "not equals"
+msgstr ""
+
+msgid "not in list"
+msgstr ""
+
+msgid "starts with"
+msgstr ""
+
+msgid "times"
+msgstr ""
+
+msgid "times used"
+msgstr ""
+
+msgid "to"
+msgstr ""
+
+msgid "💰 Save up to %s%% with bulk purchase!"
+msgstr ""
+
+msgid "享有優惠折扣！數量越多折扣越大！"
+msgstr "Enjoy discount offers! The more you buy, the bigger the discount!"
+msgid "[移除]"
+msgstr "[Remove]"
+
+msgid "移除優惠券"
+msgstr "Remove Coupon"
+
+msgid "（移除）"
+msgstr "(Remove)"
+
+msgid "移除中…"
+msgstr "Removing…"
+
+msgid "安全檢查失敗。"
+msgstr "Security check failed."
+
+msgid "折扣「%s」已從購物車中移除。"
+msgstr "Discount \"%s\" has been removed from your cart."

@@ -1,0 +1,1646 @@
+# Translation file for Discount Tools
+# Copyright (C) 2025 Hugo Shih
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Discount Tools 1.0.6\n"
+"Report-Msgid-Bugs-To: https://hugoshih.eu.org/\n"
+"POT-Creation-Date: 2025-11-29 12:00:00+00:00\n"
+"PO-Revision-Date: 2025-11-29 12:00:00+00:00\n"
+"Last-Translator: Hugo Shih <hugo@hugoshih.eu.org>\n"
+"Language-Team: zh_TW\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Custom Script 1.0\n"
+msgid "%d rules imported."
+msgstr "已匯入 %d 條規則。"
+
+msgid "%s OFF"
+msgstr "%s 折扣"
+
+msgid "%s OFF per item"
+msgstr "每件 %s 折扣"
+
+msgid "%s%% OFF"
+msgstr "%s%% 折扣"
+
+msgid "(Product is A AND Cart total > $100) OR (Product is B AND User is VIP)"
+msgstr "(商品是 A 且 購物車總計 > $100) OR (商品是 B 且 用戶是 VIP)"
+
+msgid "-- Select Condition --"
+msgstr "-- 選擇條件 --"
+
+msgid "AJAX error. Please check your connection."
+msgstr "AJAX 錯誤。請檢查您的網路連線。"
+
+msgid "AND Logic:"
+msgstr "AND 邏輯:"
+
+msgid "Activate"
+msgstr "啟用"
+
+msgid "Active"
+msgstr "啟用"
+
+msgid "Add Condition (AND)"
+msgstr "新增條件 (AND)"
+
+msgid "Add Condition Group (OR)"
+msgstr "新增條件組 (OR)"
+
+msgid "Add Coupon"
+msgstr "新增優惠券"
+
+msgid "Add New"
+msgstr "新增"
+
+msgid "Add New Discount Rule"
+msgstr "新增折扣規則"
+
+msgid "Add New Rule"
+msgstr "新增規則"
+
+msgid "Admin interface will be implemented in upcoming tasks."
+msgstr "管理介面將在後續任務中實現。"
+
+msgid "Administrator"
+msgstr "管理員"
+
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+msgid "Advanced options for performance tuning and troubleshooting."
+msgstr "效能調校和故障排除的進階選項。"
+
+msgid "After Add to Cart Button"
+msgstr "加入購物車按鈕之後"
+
+msgid "After Product Meta"
+msgstr "商品資訊之後"
+
+msgid "All"
+msgstr "全部"
+
+msgid "All Rules"
+msgstr "所有規則"
+
+msgid "All Types"
+msgstr "所有類型"
+
+msgid "All Y items are given 100% FREE. Use Conditions tab to specify which products qualify."
+msgstr "所有 Y 商品都是 100% 免費。使用「條件」頁籤指定哪些商品符合資格。"
+
+msgid "All conditions within a group must be true."
+msgstr "組內的所有條件都必須為真。"
+
+msgid "Allow multiple discount rules to stack on the same product."
+msgstr "允許在同一商品上堆疊多個折扣規則。"
+
+msgid "Allow this rule to stack with other rules"
+msgstr "允許此規則與其他規則堆疊"
+
+msgid "An error occurred. Please try again."
+msgstr "發生錯誤。請再試一次。"
+
+msgid "Applied Discounts"
+msgstr "已套用的折扣"
+
+msgid "Applied:"
+msgstr "已套用:"
+
+msgid "Apply First (Before Other Discounts)"
+msgstr "優先套用(在其他折扣之前)"
+
+msgid "Apply Highest Discount Only"
+msgstr "僅套用最高折扣"
+
+msgid "Apply Last (After Other Discounts)"
+msgstr "最後套用(在其他折扣之後)"
+
+msgid "Apply Lowest Discount Only"
+msgstr "僅套用最低折扣"
+
+msgid "Apply bundle pricing repeatedly"
+msgstr "重複應用組合定價"
+
+msgid "Apply by Priority Order"
+msgstr "按優先級順序套用"
+
+msgid "Apply promotion repeatedly"
+msgstr "重複應用促銷"
+
+msgid "Are you sure you want to delete %d rules?"
+msgstr "確定要刪除 %d 條規則嗎?"
+
+msgid "Are you sure you want to delete this rule?"
+msgstr "確定要刪除此規則嗎?"
+
+msgid "Are you sure you want to reset all settings to defaults? This cannot be undone."
+msgstr "確定要將所有設定重設為預設值嗎?此操作無法復原。"
+
+msgid "At least one group must have all conditions true."
+msgstr "至少一個組的所有條件都必須為真。"
+
+msgid "At least one tier is required."
+msgstr "至少需要一個層級。"
+
+msgid "BOGO"
+msgstr "買一送一"
+
+msgid "BOGO discount value cannot be negative."
+msgstr "買一送一折扣值不能為負數。"
+
+msgid "BXGY discount value cannot be negative."
+msgstr "買 X 送 Y 折扣值不能為負數。"
+
+msgid "Back to Rules"
+msgstr "返回規則列表"
+
+msgid "Background color for discount badges. Use gradient format like: linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+msgstr "折扣徽章的背景顏色。使用漸層格式,例如:linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+
+msgid "Badge"
+msgstr "徽章"
+
+msgid "Badge Background Color"
+msgstr "徽章背景顏色"
+
+msgid "Badge Text"
+msgstr "徽章文字"
+
+msgid "Basic Information"
+msgstr "基本資訊"
+
+msgid "Before Add to Cart Button"
+msgstr "加入購物車按鈕之前"
+
+msgid "Before Product Meta"
+msgstr "商品資訊之前"
+
+msgid "Between operator requires exactly 2 values."
+msgstr "介於運算子需要正好 2 個值。"
+
+msgid "Both Active"
+msgstr "兩者皆啟用"
+
+msgid "Brand"
+msgstr "品牌"
+
+msgid "Brand taxonomy not found"
+msgstr "找不到品牌分類"
+
+msgid "Bulk action failed."
+msgstr "批次操作失敗。"
+
+msgid "Bundle (Set) Discount"
+msgstr "組合(套裝)折扣"
+
+msgid "Bundle Configuration"
+msgstr "組合配置"
+
+msgid "Bundle Price"
+msgstr "組合價格"
+
+msgid "Bundle Quantity"
+msgstr "組合數量"
+
+msgid "Bundle price cannot be negative."
+msgstr "組合價格不能為負數。"
+
+msgid "Bundle: 2 items for $149 (Repeating)"
+msgstr "組合:2 件 $149(重複)"
+
+msgid "Buy %1$s+ and save %2$s%% - Only %3$s each!"
+msgstr "購買 %1$s+ 即省 %2$s%% - 每件只要 %3$s!"
+
+msgid "Buy %d Get %d Free - %s"
+msgstr "買 %d 送 %d 免費 - %s"
+
+msgid "Buy %d Get %d at %.0f%% Off - %s"
+msgstr "買 %d 送 %d 享 %.0f%% 折扣 - %s"
+
+msgid "Buy %d Get %d with $%.2f Off - %s"
+msgstr "買 %d 送 %d 減 $%.2f - %s"
+
+msgid "Buy 2 Get 1 Free (Repeating) = Buy Quantity: 2, Get Quantity: 1, Repeating: Checked"
+msgstr "買 2 送 1(重複) = 購買數量:2,贈送數量:1,重複:勾選"
+
+msgid "Buy 3 Get 2 Free (Repeating) = Buy Quantity: 3, Get Quantity: 2, Repeating: Checked"
+msgstr "買 3 送 2(重複) = 購買數量:3,贈送數量:2,重複:勾選"
+
+msgid "Buy 5 Get 1 Free (One-time) = Buy Quantity: 5, Get Quantity: 1, Repeating: Unchecked"
+msgstr "買 5 送 1(一次性) = 購買數量:5,贈送數量:1,重複:未勾選"
+
+msgid "Buy Quantity (X)"
+msgstr "購買數量 (X)"
+
+msgid "Buy X Get X (Same Product)"
+msgstr "買 X 送 X (相同商品)"
+
+msgid "Buy X Get X (Same Product): Each product qualifies independently. Example: Buy 2 Get 1 Free, buy 6 units = 2 units free."
+msgstr "買 X 送 X(相同商品):每個商品獨立計算。例如:買 2 送 1,購買 6 件 = 2 件免費。"
+
+msgid "Buy X Get Y (Any Product): Combine all qualifying items, discount cheapest items. Example: Buy 2 Get 1 Free with 6 total items = 2 cheapest items free."
+msgstr "買 X 送 Y(任何商品):組合所有符合資格的商品,折扣最便宜的商品。例如:買 2 送 1,總共 6 件商品 = 最便宜的 2 件免費。"
+
+msgid "Buy X Get Y (Any Qualifying Product)"
+msgstr "買 X 送 Y (任何符合資格的商品)"
+
+msgid "Buy X Get Y Configuration"
+msgstr "買 X 送 Y 配置"
+
+msgid "Cache Duration"
+msgstr "快取持續時間"
+
+msgid "Cache discount calculations for this many seconds (0 to disable caching)."
+msgstr "快取折扣計算的秒數(0 表示停用快取)。"
+
+msgid "Cache duration in seconds. Set to 0 to disable caching."
+msgstr "快取持續時間(秒)。設為 0 以停用快取。"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Cart"
+msgstr "購物車"
+
+msgid "Cart & Checkout Display"
+msgstr "購物車與結帳顯示"
+
+msgid "Cart Discount"
+msgstr "購物車折扣"
+
+msgid "Cart Page"
+msgstr "購物車頁面"
+
+msgid "Cart Quantity"
+msgstr "購物車數量"
+
+msgid "Cart Total"
+msgstr "購物車總計"
+
+msgid "Cart-Level Discounts:"
+msgstr "購物車層級折扣:"
+
+msgid "Checkout Page"
+msgstr "結帳頁面"
+
+msgid "Choose a clear name to easily identify this rule in the list."
+msgstr "選擇一個清晰的名稱以便在列表中輕鬆識別此規則。"
+
+msgid "Choose a product to test the discount calculation."
+msgstr "選擇要測試折扣計算的商品。"
+
+msgid "Color for custom discount messages."
+msgstr "自訂折扣訊息的顏色。"
+
+msgid "Comma-separated category IDs"
+msgstr "逗號分隔的分類 ID"
+
+msgid "Comma-separated product IDs"
+msgstr "逗號分隔的商品 ID"
+
+msgid "Condition Group"
+msgstr "條件組"
+
+msgid "Condition Group %d"
+msgstr "條件組 %d"
+
+msgid "Condition type is required."
+msgstr "條件類型為必填。"
+
+msgid "Condition value is required."
+msgstr "條件值為必填。"
+
+msgid "Conditions"
+msgstr "條件"
+
+msgid "Conditions functionality will be available in the next update."
+msgstr "條件功能將在下次更新中提供。"
+
+msgid "Configure general plugin behavior and discount application rules."
+msgstr "配置外掛的一般行為和折扣套用規則。"
+
+msgid "Configure how discounts are displayed to customers across your store."
+msgstr "配置折扣在您商店中向客戶顯示的方式。"
+
+msgid "Configure how the discount should be calculated and applied."
+msgstr "配置折扣的計算和應用方式。"
+
+msgid "Configure the Buy X Get Y promotion details."
+msgstr "配置買 X 送 Y 促銷詳情。"
+
+msgid "Configure the basic settings for this discount rule."
+msgstr "配置此折扣規則的基本設定。"
+
+msgid "Configure whether discount information appears on product pages. Display position and style are controlled globally in Settings."
+msgstr "配置折扣資訊是否出現在商品頁面。顯示位置和樣式在「設定」中全域控制。"
+
+msgid "Congratulations! You're Saving Money!"
+msgstr "恭喜!您正在省錢!"
+
+msgid "Control discount visibility in cart and checkout."
+msgstr "控制購物車和結帳中的折扣可見性。"
+
+msgid "Control how WooCommerce coupons and Discount Tools rules interact. Both Active: allow both to apply simultaneously. Coupons Only: disable plugin discounts when any coupon is used. Discount Tools Only: prevent customers from using coupons (plugin rules take priority)."
+msgstr "控制 WooCommerce 優惠券和折扣工具規則的互動方式。兩者皆啟用:允許同時套用。僅優惠券:使用任何優惠券時停用外掛折扣。僅折扣工具:防止客戶使用優惠券(外掛規則優先)。"
+
+msgid "Control how many times this discount can be used."
+msgstr "控制此折扣可以使用的次數。"
+
+msgid "Control when this plugin applies discounts relative to other discount plugins."
+msgstr "控制此外掛相對於其他折扣外掛套用折扣的時機。"
+
+msgid "Controls how multiple applicable rules interact. \"Priority\" uses the priority number set in each rule. \"Highest/Lowest\" calculates and applies the best discount. \"Stack All\" combines all discounts."
+msgstr "控制多個適用規則如何互動。「優先級」使用每個規則設定的優先級數字。「最高/最低」計算並套用最佳折扣。「堆疊所有」結合所有折扣。"
+
+msgid "Coupon & Discount Interaction"
+msgstr "優惠券與折扣互動"
+
+msgid "Coupon Activation Code"
+msgstr "優惠券啟動碼"
+
+msgid "Coupon Code"
+msgstr "優惠券代碼"
+
+msgid "Coupons Only, Disable Discount Tools"
+msgstr "僅優惠券,停用折扣工具"
+
+msgid "Coupons are currently disabled. Discount rules are active."
+msgstr "目前已停用優惠券。折扣規則處於啟用狀態。"
+
+msgid "Create Rule"
+msgstr "建立規則"
+
+msgid "Create Your First Rule"
+msgstr "建立您的第一條規則"
+
+msgid "Create powerful discount rules for your WooCommerce store."
+msgstr "為您的 WooCommerce 商店建立強大的折扣規則。"
+
+msgid "Create quantity-based discount tiers (e.g., buy 3 get 10%, buy 5 get 20%)."
+msgstr "建立基於數量的折扣層級(例如:買 3 享 10%,買 5 享 20%)。"
+
+msgid "Current Usage"
+msgstr "目前使用量"
+
+msgid "Custom Messages"
+msgstr "自訂訊息"
+
+msgid "Custom validator \"%s\" error: %s"
+msgstr "自訂驗證器「%s」錯誤:%s"
+
+msgid "Custom validator \"%s\" failed."
+msgstr "自訂驗證器「%s」失敗。"
+
+msgid "Customer"
+msgstr "客戶"
+
+msgid "Customize discount messages shown to customers."
+msgstr "自訂向客戶顯示的折扣訊息。"
+
+msgid "Date Range"
+msgstr "日期範圍"
+
+msgid "Date Range (Optional)"
+msgstr "日期範圍(選填)"
+
+msgid "Date Range:"
+msgstr "日期範圍:"
+
+msgid "Date/Time"
+msgstr "日期/時間"
+
+msgid "Day of Week"
+msgstr "星期"
+
+msgid "Deactivate"
+msgstr "停用"
+
+msgid "Debug Mode"
+msgstr "除錯模式"
+
+msgid "Default Priority"
+msgstr "預設優先級"
+
+msgid "Default priority for new rules."
+msgstr "新規則的預設優先級。"
+
+msgid "Define when this discount rule should be applied. Conditions within a group use AND logic, while groups are combined with OR logic."
+msgstr "定義何時應用此折扣規則。組內的條件使用 AND 邏輯,組之間使用 OR 邏輯組合。"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Delete Data on Uninstall"
+msgstr "解除安裝時刪除資料"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Determines how WooCommerce coupons interact with discount rules. \"Both Active\" allows both to work together. \"Coupons Only\" disables this plugin when a coupon is applied. \"Discount Tools Only\" prevents WooCommerce coupons from being used."
+msgstr "決定 WooCommerce 優惠券如何與折扣規則互動。「兩者皆啟用」允許兩者一起運作。「僅優惠券」在套用優惠券時停用此外掛。「僅 Discount Tools」防止使用 WooCommerce 優惠券。"
+
+msgid "Discount"
+msgstr "折扣"
+
+msgid "Discount Amount"
+msgstr "折扣金額"
+
+msgid "Discount Configuration"
+msgstr "折扣配置"
+
+msgid "Discount Priority"
+msgstr "折扣優先級"
+
+msgid "Discount Reports"
+msgstr "折扣報表"
+
+msgid "Discount Rules"
+msgstr "折扣規則"
+
+msgid "Discount Tools"
+msgstr "折扣工具"
+
+msgid "Discount Tools Only, Disable Coupons"
+msgstr "僅折扣工具,停用優惠券"
+
+msgid "Discount Tools Settings"
+msgstr "折扣工具設定"
+
+msgid "Discount Tools requires PHP version 7.4 or higher."
+msgstr "折扣工具需要 PHP 7.4 或更高版本。"
+
+msgid "Discount Tools requires WooCommerce to be installed and active."
+msgstr "折扣工具需要安裝並啟用 WooCommerce。"
+
+msgid "Discount Tools requires WordPress version 5.8 or higher."
+msgstr "折扣工具需要 WordPress 5.8 或更高版本。"
+
+msgid "Discount Type"
+msgstr "折扣類型"
+
+msgid "Discount Value"
+msgstr "折扣值"
+
+msgid "Discount over 100% will result in negative prices."
+msgstr "超過 100% 的折扣將導致負價格。"
+
+msgid "Discount type is required."
+msgstr "折扣類型為必填。"
+
+msgid "Discount value cannot be negative."
+msgstr "折扣值不能為負數。"
+
+msgid "Discount value is required."
+msgstr "折扣值為必填。"
+
+msgid "Discount value must be a positive number."
+msgstr "折扣值必須為正數。"
+
+msgid "Discount value must be non-negative."
+msgstr "折扣值必須為非負數。"
+
+msgid "Discount:"
+msgstr "折扣:"
+
+msgid "Discounts"
+msgstr "折扣"
+
+msgid "Display"
+msgstr "顯示"
+
+msgid "Display Position"
+msgstr "顯示位置"
+
+msgid "Display Settings"
+msgstr "顯示設定"
+
+msgid "Display Style"
+msgstr "顯示樣式"
+
+msgid "Display discount details in shopping cart"
+msgstr "在購物車中顯示折扣詳情"
+
+msgid "Display discount information on product pages"
+msgstr "在商品頁面顯示折扣資訊"
+
+msgid "Display position and style are managed in %s"
+msgstr "顯示位置和樣式在 %s 中管理"
+
+msgid "Display settings are saved but frontend implementation will be completed in Phase 6 (Tasks 22-24). This includes discount tables, cart messages, and styling options."
+msgstr "顯示設定已儲存,但前台實作將在第 6 階段(任務 22-24)完成。這包括折扣表格、購物車訊息和樣式選項。"
+
+msgid "Duplicate"
+msgstr "複製"
+
+msgid "Each group must have at least one condition."
+msgstr "每個組至少要有一個條件。"
+
+msgid "Edit"
+msgstr "編輯"
+
+msgid "Edit Discount Rule"
+msgstr "編輯折扣規則"
+
+msgid "Email (optional)"
+msgstr "電子郵件(選填)"
+
+msgid "Enable Plugin"
+msgstr "啟用外掛"
+
+msgid "Enable activity logging"
+msgstr "啟用活動記錄"
+
+msgid "Enable debug logging for troubleshooting. Logs are written to WP Debug Log."
+msgstr "啟用除錯記錄以進行故障排除。記錄會寫入 WP 除錯日誌。"
+
+msgid "Enable debug mode"
+msgstr "啟用除錯模式"
+
+msgid "Enable discount rules functionality"
+msgstr "啟用折扣規則功能"
+
+msgid "Enable or disable the discount functionality globally."
+msgstr "全域啟用或停用折扣功能。"
+
+msgid "Enable stacking to allow multiple discounts to apply together. Disable to make this rule exclusive."
+msgstr "啟用堆疊以允許多個折扣一起套用。停用以使此規則互斥。"
+
+msgid "End Date"
+msgstr "結束日期"
+
+msgid "End Date & Time"
+msgstr "結束日期和時間"
+
+msgid "End date must be after start date."
+msgstr "結束日期必須在開始日期之後。"
+
+msgid "Enter \"yes\" or \"no\""
+msgstr "輸入 \"yes\" 或 \"no\""
+
+msgid "Enter a descriptive name for this discount rule (for internal use only)."
+msgstr "為此折扣規則輸入描述性名稱(僅供內部使用)。"
+
+msgid "Enter a descriptive name for this discount rule."
+msgstr "為此折扣規則輸入描述性名稱。"
+
+msgid "Enter category IDs (e.g., 10, 20)"
+msgstr "輸入分類 ID(例如:10, 20)"
+
+msgid "Enter product IDs (e.g., 123, 456, 789)"
+msgstr "輸入商品 ID(例如:123, 456, 789)"
+
+msgid "Enter role slugs (e.g., customer, subscriber)"
+msgstr "輸入角色代碼(例如:customer, subscriber)"
+
+msgid "Enter the cart subtotal amount"
+msgstr "輸入購物車小計金額"
+
+msgid "Enter the discount value (e.g., 20 for 20% or $20)"
+msgstr "輸入折扣值(例如:20 表示 20% 或 $20)"
+
+msgid "Enter the discount value (percentage or amount)."
+msgstr "輸入折扣值(百分比或金額)。"
+
+msgid "Enter the total number of items"
+msgstr "輸入商品總數"
+
+msgid "Error deleting rule."
+msgstr "刪除規則時發生錯誤。"
+
+msgid "Error duplicating rule: %s"
+msgstr "複製規則時發生錯誤:%s"
+
+msgid "Error saving rule: %s"
+msgstr "儲存規則時發生錯誤:%s"
+
+msgid "Error toggling rule: %s"
+msgstr "切換規則時發生錯誤:%s"
+
+msgid "Error: Stacking and Repeating cannot be used together for BXGY discounts."
+msgstr "錯誤:BXGY 折扣不能同時使用堆疊和重複。"
+
+msgid "Example:"
+msgstr "範例:"
+
+msgid "Example: \"You saved $10.00 with this discount!\""
+msgstr "範例:「您透過此折扣節省了 $10.00!」"
+
+msgid "Examples:"
+msgstr "範例:"
+
+msgid "Expired"
+msgstr "已過期"
+
+msgid "Export Settings"
+msgstr "匯出設定"
+
+msgid "Export failed."
+msgstr "匯出失敗。"
+
+msgid "Export failed. Please try again."
+msgstr "匯出失敗。請再試一次。"
+
+msgid "Export your current settings as a JSON file for backup or migration."
+msgstr "將目前設定匯出為 JSON 檔案以進行備份或遷移。"
+
+msgid "FREE PRODUCT"
+msgstr "免費商品"
+
+msgid "Failed to save rule. Please try again."
+msgstr "儲存規則失敗。請再試一次。"
+
+msgid "Failed to update rule status."
+msgstr "更新規則狀態失敗。"
+
+msgid "Filter"
+msgstr "篩選"
+
+msgid "Final Price"
+msgstr "最終價格"
+
+msgid "Final:"
+msgstr "最終:"
+
+msgid "Fixed Amount"
+msgstr "固定金額"
+
+msgid "Fixed Amount Discount"
+msgstr "固定金額折扣"
+
+msgid "Fixed Amount: Enter the discount amount in %s. Example: 10 = %s discount"
+msgstr "固定金額:輸入折扣金額(單位:%s)。例如:10 = %s 折扣"
+
+msgid "Fixed discount amount cannot be negative."
+msgstr "固定折扣金額不能為負數。"
+
+msgid "Fixed price for the bundle. Example: 149 for \"$149 for 2 items\""
+msgstr "組合的固定價格。例如:149 表示「2 件 $149」"
+
+msgid "Font size for custom messages (in pixels)."
+msgstr "自訂訊息的字體大小(像素)。"
+
+msgid "From:"
+msgstr "從:"
+
+msgid "Gap detected between tiers."
+msgstr "偵測到層級之間有間隙。"
+
+msgid "General"
+msgstr "一般"
+
+msgid "General Settings"
+msgstr "一般設定"
+
+msgid "Get %1$s when your order reaches %2$s"
+msgstr "當您的訂單達到 %2$s 時獲得 %1$s"
+
+msgid "Get Quantity (Y)"
+msgstr "獲得數量 (Y)"
+
+msgid "Get Started with Discount Tools"
+msgstr "開始使用折扣工具"
+
+msgid "Gift Products (Y Items)"
+msgstr "贈品(Y 商品)"
+
+msgid "Guest (Not logged in)"
+msgstr "訪客(未登入)"
+
+msgid "Higher numbers = higher priority (1-100). Default: 10"
+msgstr "數字越大 = 優先級越高 (1-100)。預設:10"
+
+msgid "Higher numbers = higher priority. Range: 1-100."
+msgstr "數字越大 = 優先級越高。範圍:1-100。"
+
+msgid "Higher priority rules are evaluated first. Use priority to control which discount applies when multiple rules match."
+msgstr "較高優先級的規則會先評估。使用優先級來控制當多個規則匹配時應用哪個折扣。"
+
+msgid "How Preview Works"
+msgstr "預覽的運作方式"
+
+msgid "How to display the discount information to customers."
+msgstr "如何向客戶顯示折扣資訊。"
+
+msgid "If enabled, this discount can be combined with other stackable discounts."
+msgstr "如果啟用,此折扣可以與其他可堆疊的折扣組合使用。"
+
+msgid "Import / Export Settings"
+msgstr "匯入/匯出設定"
+
+msgid "Import Settings"
+msgstr "匯入設定"
+
+msgid "Import failed."
+msgstr "匯入失敗。"
+
+msgid "Import failed. Please try again."
+msgstr "匯入失敗。請再試一次。"
+
+msgid "Import settings from a previously exported JSON file."
+msgstr "從先前匯出的 JSON 檔案匯入設定。"
+
+msgid "Inactive"
+msgstr "停用"
+
+msgid "Insufficient permissions."
+msgstr "權限不足。"
+
+msgid "Invalid JSON data."
+msgstr "無效的 JSON 資料。"
+
+msgid "Invalid JSON file."
+msgstr "無效的 JSON 檔案。"
+
+msgid "Invalid action."
+msgstr "無效的操作。"
+
+msgid "Invalid bulk action."
+msgstr "無效的批次操作。"
+
+msgid "Invalid condition configuration."
+msgstr "無效的條件配置。"
+
+msgid "Invalid condition object."
+msgstr "無效的條件物件。"
+
+msgid "Invalid condition type."
+msgstr "無效的條件類型。"
+
+msgid "Invalid discount type."
+msgstr "無效的折扣類型。"
+
+msgid "Invalid operator."
+msgstr "無效的運算子。"
+
+msgid "Invalid request."
+msgstr "無效的請求。"
+
+msgid "Invalid rule ID."
+msgstr "無效的規則 ID。"
+
+msgid "Invalid rule status."
+msgstr "無效的規則狀態。"
+
+msgid "Invalid rule type."
+msgstr "無效的規則類型。"
+
+msgid "Invalid settings format."
+msgstr "無效的設定格式。"
+
+msgid "Leave empty for no end date restriction."
+msgstr "留空表示無結束日期限制。"
+
+msgid "Leave empty for no start date restriction."
+msgstr "留空表示無開始日期限制。"
+
+msgid "Limit how many times each customer can use this discount."
+msgstr "限制每位客戶可以使用此折扣的次數。"
+
+msgid "Log discount rule applications for debugging."
+msgstr "記錄折扣規則套用以進行除錯。"
+
+msgid "Logging"
+msgstr "記錄"
+
+msgid "Logic Guide"
+msgstr "邏輯指南"
+
+msgid "Max discount cannot be negative."
+msgstr "最大折扣不能為負數。"
+
+msgid "Maximum number of times this discount can be used in total. Leave empty for unlimited."
+msgstr "此折扣總共可以使用的最大次數。留空表示無限制。"
+
+msgid "Maximum number of times this rule can be used across all customers. 0 = unlimited."
+msgstr "此規則在所有客戶中可以使用的最大次數。0 = 無限制。"
+
+msgid "Maximum number of times this rule can be used. Leave 0 for unlimited."
+msgstr "此規則可以使用的最大次數。設為 0 表示無限制。"
+
+msgid "Message Font Size"
+msgstr "訊息字體大小"
+
+msgid "Message Text Color"
+msgstr "訊息文字顏色"
+
+msgid "Min discount cannot be greater than max discount."
+msgstr "最小折扣不能大於最大折扣。"
+
+msgid "Min discount cannot be negative."
+msgstr "最小折扣不能為負數。"
+
+msgid "Mixing stackable and non-stackable rules may cause unexpected behavior."
+msgstr "混合可堆疊和不可堆疊的規則可能會導致意外行為。"
+
+msgid "Multiple rules have the same priority: %s"
+msgstr "多條規則具有相同的優先級:%s"
+
+msgid "No date restrictions"
+msgstr "無日期限制"
+
+msgid "No discount rules found. Create your first rule to get started!"
+msgstr "找不到折扣規則。建立您的第一條規則以開始使用!"
+
+msgid "No results found"
+msgstr "找不到結果"
+
+msgid "No rules found."
+msgstr "找不到規則。"
+
+msgid "No rules selected."
+msgstr "未選擇規則。"
+
+msgid "No settings data provided."
+msgstr "未提供設定資料。"
+
+msgid "Non-stackable rules conflict."
+msgstr "不可堆疊的規則衝突。"
+
+msgid "Note:"
+msgstr "注意:"
+
+msgid "Number of items customer gets discounted. Example: 1 for \"Get 1\""
+msgstr "客戶獲得折扣的商品數量。例如:1 表示「送 1」"
+
+msgid "Number of items customer must buy. Example: 2 for \"Buy 2\""
+msgstr "客戶必須購買的商品數量。例如:2 表示「買 2」"
+
+msgid "Number of items in the bundle. Example: 2 for \"2 items for $149\""
+msgstr "組合中的商品數量。例如:2 表示「2 件 $149」"
+
+msgid "Number of items to test."
+msgstr "要測試的商品數量。"
+
+msgid "Number of orders where this discount has been applied."
+msgstr "已套用此折扣的訂單數量。"
+
+msgid "Number of times this discount has been used so far."
+msgstr "到目前為止此折扣已使用的次數。"
+
+msgid "OFF"
+msgstr "折扣"
+
+msgid "OR"
+msgstr "OR"
+
+msgid "OR Logic:"
+msgstr "OR 邏輯:"
+
+msgid "Only %d uses remaining before this rule reaches its limit."
+msgstr "此規則僅剩 %d 次使用即達到限制。"
+
+msgid "Only active rules will be applied to orders."
+msgstr "只有啟用的規則會套用到訂單。"
+
+msgid "Operator is required."
+msgstr "運算子為必填。"
+
+msgid "Optional description for reference"
+msgstr "選填的參考描述"
+
+msgid "Optional description to help you remember what this rule is for."
+msgstr "選填描述以幫助您記住此規則的用途。"
+
+msgid "Optional: Limit this rule to a specific time period."
+msgstr "選填:將此規則限制在特定時間段。"
+
+msgid "Original Price"
+msgstr "原價"
+
+msgid "Original:"
+msgstr "原價:"
+
+msgid "Override"
+msgstr "覆蓋"
+
+msgid "Override Price"
+msgstr "覆蓋價格"
+
+msgid "Override Price: Set a new fixed price for the product. Original price will be replaced."
+msgstr "覆蓋價格:為商品設定新的固定價格。原價將被替換。"
+
+msgid "Override price cannot be negative."
+msgstr "覆蓋價格不能為負數。"
+
+msgid "Payment Method"
+msgstr "付款方式"
+
+msgid "Per-User Limits"
+msgstr "每用戶限制"
+
+msgid "Per-user limit exceeds total limit."
+msgstr "每用戶限制超過總限制。"
+
+msgid "Per-user usage limit cannot be negative."
+msgstr "每用戶使用限制不能為負數。"
+
+msgid "Per-user usage limits will be available in a future update. For now, use coupon codes for per-user restrictions."
+msgstr "每用戶使用限制將在未來更新中提供。目前請使用優惠券代碼進行每用戶限制。"
+
+msgid "Percentage"
+msgstr "百分比"
+
+msgid "Percentage Discount (%)"
+msgstr "百分比折扣 (%)"
+
+msgid "Percentage discount cannot exceed 100%."
+msgstr "百分比折扣不能超過 100%。"
+
+msgid "Percentage discount must be between 0 and 100."
+msgstr "百分比折扣必須在 0 到 100 之間。"
+
+msgid "Percentage: Enter a value between 0 and 100. Example: 20 = 20% discount"
+msgstr "百分比:輸入 0 到 100 之間的值。例如:20 = 20% 折扣"
+
+msgid "Perfect for seasonal sales or limited-time promotions. Rules automatically activate and deactivate based on dates."
+msgstr "非常適合季節性促銷或限時促銷。規則會根據日期自動啟用和停用。"
+
+msgid "Permission denied."
+msgstr "權限被拒絕。"
+
+msgid "Please enter 2 or more characters"
+msgstr "請輸入 2 個或更多字元"
+
+msgid "Please select a product first."
+msgstr "請先選擇商品。"
+
+msgid "Please use the Settings link in the Discount Tools menu."
+msgstr "請使用折扣工具選單中的設定連結。"
+
+msgid "Preview Changes"
+msgstr "預覽變更"
+
+msgid "Preview Results"
+msgstr "預覽結果"
+
+msgid "Preview failed. Please try again."
+msgstr "預覽失敗。請再試一次。"
+
+msgid "Preview functionality requires the Rule Engine to be fully implemented. This feature will be completed in Phase 3 (Task 11)."
+msgstr "預覽功能需要完全實作規則引擎。此功能將在第 3 階段(任務 11)完成。"
+
+msgid "Preview uses current rule settings (save changes first for accurate results)."
+msgstr "預覽使用目前的規則設定(先儲存變更以獲得準確結果)。"
+
+msgid "Price Override"
+msgstr "價格覆蓋"
+
+msgid "Priority"
+msgstr "優先級"
+
+msgid "Priority must be a non-negative number."
+msgstr "優先級必須為非負數。"
+
+msgid "Priority must be between 1 and 100."
+msgstr "優先級必須在 1 到 100 之間。"
+
+msgid "Priority:"
+msgstr "優先級:"
+
+msgid "Product"
+msgstr "商品"
+
+msgid "Product Attribute"
+msgstr "商品屬性"
+
+msgid "Product Category"
+msgstr "商品分類"
+
+msgid "Product Discount"
+msgstr "商品折扣"
+
+msgid "Product Page"
+msgstr "商品頁面"
+
+msgid "Product Page Display"
+msgstr "商品頁面顯示"
+
+msgid "Product Tag"
+msgstr "商品標籤"
+
+msgid "Product-Level Discounts:"
+msgstr "商品層級折扣:"
+
+msgid "Product: Applies to individual products. Cart: Applies to entire cart."
+msgstr "商品:適用於單個商品。購物車:適用於整個購物車。"
+
+msgid "Purchase History"
+msgstr "購買記錄"
+
+msgid "Quantity"
+msgstr "數量"
+
+msgid "Quick Tips"
+msgstr "快速提示"
+
+msgid "Reason:"
+msgstr "原因:"
+
+msgid "Recent Usage"
+msgstr "最近使用情況"
+
+msgid "Regular Price: $115 per item"
+msgstr "正常價格:每件 $115"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Remove Condition"
+msgstr "移除條件"
+
+msgid "Remove Group"
+msgstr "移除組"
+
+msgid "Remove all plugin data when the plugin is uninstalled."
+msgstr "解除安裝外掛時移除所有外掛資料。"
+
+msgid "Repeating Bundle"
+msgstr "重複組合"
+
+msgid "Repeating Promotion"
+msgstr "重複促銷"
+
+msgid "Reports"
+msgstr "報表"
+
+msgid "Reports page will be implemented in upcoming tasks."
+msgstr "報表頁面將在後續任務中實現。"
+
+msgid "Reset Settings"
+msgstr "重設設定"
+
+msgid "Reset failed."
+msgstr "重設失敗。"
+
+msgid "Reset failed. Please try again."
+msgstr "重設失敗。請再試一次。"
+
+msgid "Reset to Defaults"
+msgstr "重設為預設值"
+
+msgid "Restrict how many times this discount can be used."
+msgstr "限制此折扣可以使用的次數。"
+
+msgid "Result: 2 items = $149 (save $81), 3 items = $149 + $115 = $264, 4 items = $149 + $149 = $298"
+msgstr "結果:2 件 = $149(省 $81),3 件 = $149 + $115 = $264,4 件 = $149 + $149 = $298"
+
+msgid "Rule Application Strategy"
+msgstr "規則套用策略"
+
+msgid "Rule Configuration"
+msgstr "規則配置"
+
+msgid "Rule Name"
+msgstr "規則名稱"
+
+msgid "Rule Name:"
+msgstr "規則名稱:"
+
+msgid "Rule Preview"
+msgstr "規則預覽"
+
+msgid "Rule Type"
+msgstr "規則類型"
+
+msgid "Rule activated successfully."
+msgstr "規則啟用成功。"
+
+msgid "Rule conditions are NOT met."
+msgstr "規則條件未滿足。"
+
+msgid "Rule conditions are met!"
+msgstr "規則條件已滿足!"
+
+msgid "Rule created successfully."
+msgstr "規則建立成功。"
+
+msgid "Rule deactivated successfully."
+msgstr "規則停用成功。"
+
+msgid "Rule deleted successfully."
+msgstr "規則刪除成功。"
+
+msgid "Rule duplicated successfully."
+msgstr "規則複製成功。"
+
+msgid "Rule has no conditions. It will apply to all orders."
+msgstr "規則沒有條件。它將套用到所有訂單。"
+
+msgid "Rule name is required."
+msgstr "規則名稱為必填。"
+
+msgid "Rule not found."
+msgstr "找不到規則。"
+
+msgid "Rule type is required."
+msgstr "規則類型為必填。"
+
+msgid "Rule updated successfully."
+msgstr "規則更新成功。"
+
+msgid "Rule:"
+msgstr "規則:"
+
+msgid "Rules"
+msgstr "規則"
+
+msgid "Rules \"%s\" and \"%s\" may overlap."
+msgstr "規則「%s」和「%s」可能重疊。"
+
+msgid "Run Preview"
+msgstr "執行預覽"
+
+msgid "SALE!"
+msgstr "特價!"
+
+msgid "Save Changes"
+msgstr "儲存變更"
+
+msgid "Save Settings"
+msgstr "儲存設定"
+
+msgid "Save {discount}"
+msgstr "省 {discount}"
+
+msgid "Savings"
+msgstr "節省"
+
+msgid "Savings Message Template"
+msgstr "節省訊息範本"
+
+msgid "Scheduled"
+msgstr "已排程"
+
+msgid "Search Rules"
+msgstr "搜尋規則"
+
+msgid "Search brands..."
+msgstr "搜尋品牌..."
+
+msgid "Search categories..."
+msgstr "搜尋分類..."
+
+msgid "Search for products to give as gifts..."
+msgstr "搜尋作為贈品的商品..."
+
+msgid "Search products..."
+msgstr "搜尋商品..."
+
+msgid "Searching..."
+msgstr "搜尋中..."
+
+msgid "Security check failed."
+msgstr "安全檢查失敗。"
+
+msgid "See which orders used this discount, total savings, and more."
+msgstr "查看哪些訂單使用了此折扣、總節省金額等。"
+
+msgid "Select a product and quantity to test."
+msgstr "選擇要測試的商品和數量。"
+
+msgid "Select a product..."
+msgstr "選擇商品..."
+
+msgid "Select the type of discount rule."
+msgstr "選擇折扣規則的類型。"
+
+msgid "Select the type of discount to apply."
+msgstr "選擇要應用的折扣類型。"
+
+msgid "Select which products can be given as gifts. These will automatically be added to the cart when customer qualifies. Leave empty to allow any product from Conditions tab."
+msgstr "選擇哪些商品可以作為贈品。當客戶符合資格時,這些商品將自動加入購物車。留空表示允許「條件」頁籤中的任何商品。"
+
+msgid "Set up bundle pricing - buy multiple items at a fixed bundle price"
+msgstr "設定組合定價 - 以固定的組合價格購買多個商品"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Settings exported successfully!"
+msgstr "設定匯出成功!"
+
+msgid "Settings imported successfully."
+msgstr "設定匯入成功。"
+
+msgid "Settings reset to defaults."
+msgstr "設定已重設為預設值。"
+
+msgid "Settings saved successfully."
+msgstr "設定儲存成功。"
+
+msgid "Shipping City"
+msgstr "收件城市"
+
+msgid "Shipping Postcode"
+msgstr "收件郵遞區號"
+
+msgid "Shipping State"
+msgstr "收件州/省"
+
+msgid "Show Original Price"
+msgstr "顯示原價"
+
+msgid "Show Savings Message"
+msgstr "顯示節省訊息"
+
+msgid "Show detailed debug information. Only for development."
+msgstr "顯示詳細的除錯資訊。僅供開發使用。"
+
+msgid "Show discount details in cart"
+msgstr "在購物車中顯示折扣詳情"
+
+msgid "Show discount table on product pages"
+msgstr "在商品頁面顯示折扣表格"
+
+msgid "Show in Cart"
+msgstr "在購物車中顯示"
+
+msgid "Show on Product Page"
+msgstr "在商品頁面顯示"
+
+msgid "Show the original price with strikethrough when discount is applied."
+msgstr "套用折扣時顯示帶刪除線的原價。"
+
+msgid "Show total savings message in cart"
+msgstr "在購物車中顯示總節省訊息"
+
+msgid "Show total savings on checkout"
+msgstr "在結帳時顯示總節省金額"
+
+msgid "Stack All Applicable Discounts"
+msgstr "堆疊所有適用的折扣"
+
+msgid "Stack Multiple Discounts"
+msgstr "堆疊多個折扣"
+
+msgid "Stackable"
+msgstr "可堆疊"
+
+msgid "Stackable with other rules"
+msgstr "可與其他規則堆疊"
+
+msgid "Stacking"
+msgstr "堆疊"
+
+msgid "Stacking:"
+msgstr "堆疊:"
+
+msgid "Start Date"
+msgstr "開始日期"
+
+msgid "Start Date & Time"
+msgstr "開始日期和時間"
+
+msgid "Start date is in the past."
+msgstr "開始日期已過去。"
+
+msgid "Start date must be before end date."
+msgstr "開始日期必須在結束日期之前。"
+
+msgid "Status"
+msgstr "狀態"
+
+msgid "Subscriber"
+msgstr "訂閱者"
+
+msgid "Tab content for \"%s\" is not yet implemented."
+msgstr "「%s」的分頁內容尚未實現。"
+
+msgid "Test Product"
+msgstr "測試商品"
+
+msgid "Test as different user roles."
+msgstr "以不同的用戶角色測試。"
+
+msgid "Test how this discount rule will apply to different products and scenarios."
+msgstr "測試此折扣規則如何套用到不同的商品和場景。"
+
+msgid "Text"
+msgstr "文字"
+
+msgid "Text to show on discount badge. Leave empty for default."
+msgstr "顯示在折扣徽章上的文字。留空表示使用預設值。"
+
+msgid "The preview will show if the rule conditions are met."
+msgstr "預覽將顯示是否滿足規則條件。"
+
+msgid "This rule expired %s ago."
+msgstr "此規則在 %s 前已過期。"
+
+msgid "This rule has already expired."
+msgstr "此規則已過期。"
+
+msgid "This rule has reached its usage limit and will not be applied to new orders."
+msgstr "此規則已達到使用限制,將不會套用到新訂單。"
+
+msgid "This rule is currently active and will end in %s."
+msgstr "此規則當前有效,將在 %s 後結束。"
+
+msgid "This rule is scheduled to start in %s."
+msgstr "此規則計劃在 %s 後開始。"
+
+msgid "Tier discount cannot be negative."
+msgstr "層級折扣不能為負數。"
+
+msgid "Tier discount value is required."
+msgstr "層級折扣值為必填。"
+
+msgid "Tier max must be greater than or equal to min."
+msgstr "層級最大值必須大於或等於最小值。"
+
+msgid "Tier min quantity cannot be negative."
+msgstr "層級最小數量不能為負數。"
+
+msgid "Tier min quantity is required."
+msgstr "層級最小數量為必填。"
+
+msgid "Tiered Discounts"
+msgstr "層級折扣"
+
+msgid "Tiered discount features will be available in a future update. This will allow you to create multiple discount levels based on quantity purchased."
+msgstr "層級折扣功能將在未來更新中提供。這將允許您根據購買數量建立多個折扣層級。"
+
+msgid "Tiered/bulk discount requires an array of tiers."
+msgstr "層級/批量折扣需要層級陣列。"
+
+msgid "Times Used"
+msgstr "使用次數"
+
+msgid "Total Savings"
+msgstr "總節省"
+
+msgid "Total Savings:"
+msgstr "總節省:"
+
+msgid "Total Usage Limit"
+msgstr "總使用限制"
+
+msgid "Type"
+msgstr "類型"
+
+msgid "Type to search products..."
+msgstr "輸入以搜尋商品..."
+
+msgid "Type:"
+msgstr "類型:"
+
+msgid "Unlimited"
+msgstr "無限制"
+
+msgid "Until:"
+msgstr "直到:"
+
+msgid "Update Rule"
+msgstr "更新規則"
+
+msgid "Usage"
+msgstr "使用情況"
+
+msgid "Usage Limit"
+msgstr "使用限制"
+
+msgid "Usage Limit (Optional)"
+msgstr "使用限制(選填)"
+
+msgid "Usage Limits"
+msgstr "使用限制"
+
+msgid "Usage limit cannot be negative."
+msgstr "使用限制不能為負數。"
+
+msgid "Usage limit has been reached."
+msgstr "已達到使用限制。"
+
+msgid "Usage limit must be a positive number or zero for unlimited."
+msgstr "使用限制必須為正數或零(表示無限制)。"
+
+msgid "Usage limit must be at least 1."
+msgstr "使用限制必須至少為 1。"
+
+msgid "Use Conditions tab to specify which products qualify for bundle pricing. Frontend will show strikethrough original price and highlighted bundle price."
+msgstr "使用「條件」頁籤指定哪些商品符合組合定價資格。前台將顯示劃線的原價和突出顯示的組合價格。"
+
+msgid "Use {amount} as placeholder for savings amount. Leave empty for default."
+msgstr "使用 {amount} 作為節省金額的佔位符。留空表示使用預設值。"
+
+msgid "User Email"
+msgstr "用戶電子郵件"
+
+msgid "User Logged In"
+msgstr "用戶已登入"
+
+msgid "User Role"
+msgstr "用戶角色"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Value array cannot be empty."
+msgstr "值陣列不能為空。"
+
+msgid "Value must be an array for this operator."
+msgstr "此運算子的值必須為陣列。"
+
+msgid "Very large discount amount. Please verify."
+msgstr "折扣金額非常大。請驗證。"
+
+msgid "View Detailed Usage Report"
+msgstr "查看詳細使用報表"
+
+msgid "Volume Discounts"
+msgstr "批量折扣"
+
+msgid "Warning: Stacking and Repeating cannot be used together for BXGY discounts. Repeating will be disabled."
+msgstr "警告:BXGY 折扣不能同時使用堆疊和重複。重複將被停用。"
+
+msgid "Warning: This will reset all settings to their default values. This action cannot be undone."
+msgstr "警告:這將重設所有設定為預設值。此操作無法復原。"
+
+msgid "When checked: 4 items = 2 bundles. When unchecked: only first 2 items get bundle price, 3rd and 4th at regular price."
+msgstr "勾選時:4 件 = 2 個組合。未勾選時:只有前 2 件享受組合價格,第 3 和第 4 件按正常價格計算。"
+
+msgid "When checked: Buy 2 Get 1 Free, purchasing 6 items = 2 free items (repeats). When unchecked: only applies once (6 items = 1 free item)."
+msgstr "勾選時:買 2 送 1,購買 6 件 = 2 件免費(重複)。未勾選時:只應用一次(6 件 = 1 件免費)。"
+
+msgid "When multiple rules match, determine which rule(s) to apply. Priority: use rule priority field. Highest: calculate and apply the rule with maximum discount. Lowest: apply the rule with minimum discount. Stack All: apply all matching rules cumulatively."
+msgstr "當多條規則匹配時,決定要套用哪些規則。優先級:使用規則優先級欄位。最高:計算並套用具有最大折扣的規則。最低:套用具有最小折扣的規則。全部堆疊:累積套用所有匹配的規則。"
+
+msgid "Where to display discount information on product pages."
+msgstr "在商品頁面的何處顯示折扣資訊。"
+
+msgid "You Saved"
+msgstr "您節省了"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您沒有足夠的權限存取此頁面。"
+
+msgid "You have %d stackable rules. This may result in very large discounts."
+msgstr "您有 %d 條可堆疊規則。這可能導致非常大的折扣。"
+
+msgid "You must have at least one condition group."
+msgstr "您至少要有一個條件組。"
+
+msgid "You saved {amount}!"
+msgstr "您節省了 {amount}!"
+
+msgid "You'll see the original price, discount amount, and final price."
+msgstr "您將看到原價、折扣金額和最終價格。"
+
+msgid "applied your shopping cart"
+msgstr "已套用到您的購物車"
+
+msgid "contains"
+msgstr "包含"
+
+msgid "does not contain"
+msgstr "不包含"
+
+msgid "does not equal"
+msgstr "不等於"
+
+msgid "e.g., Summer Sale 20% Off"
+msgstr "例如:夏季特賣 8 折"
+
+msgid "ends with"
+msgstr "結尾為"
+
+msgid "equals"
+msgstr "等於"
+
+msgid "greater or equal"
+msgstr "大於或等於"
+
+msgid "greater than"
+msgstr "大於"
+
+msgid "in list"
+msgstr "在列表中"
+
+msgid "is between"
+msgstr "介於"
+
+msgid "is empty"
+msgstr "為空"
+
+msgid "is greater than"
+msgstr "大於"
+
+msgid "is greater than or equal to"
+msgstr "大於或等於"
+
+msgid "is less than"
+msgstr "小於"
+
+msgid "is less than or equal to"
+msgstr "小於或等於"
+
+msgid "is not between"
+msgstr "不介於"
+
+msgid "is not empty"
+msgstr "不為空"
+
+msgid "is not one of"
+msgstr "不是其中之一"
+
+msgid "is one of"
+msgstr "是其中之一"
+
+msgid "less or equal"
+msgstr "小於或等於"
+
+msgid "less than"
+msgstr "小於"
+
+msgid "not equals"
+msgstr "不等於"
+
+msgid "not in list"
+msgstr "不在列表中"
+
+msgid "starts with"
+msgstr "開頭為"
+
+msgid "times"
+msgstr "次"
+
+msgid "times used"
+msgstr "次使用"
+
+msgid "to"
+msgstr "到"
+
+msgid "💰 Save up to %s%% with bulk purchase!"
+msgstr "💰 批量購買最多可省 %s%%!"
+
+msgid "Per-User Usage Limit"
+msgstr "每用戶使用限制"
+
+msgid "Maximum number of times each individual customer can use this discount. 0 = unlimited."
+msgstr "每位個別客戶可以使用此折扣的最大次數。0 = 無限制。"
+
+msgid "Reset Usage Count"
+msgstr "重置使用次數"
+
+msgid "Usage count has been reset to zero."
+msgstr "使用次數已重置為零。"
+
+msgid "Failed to reset usage count."
+msgstr "重置使用次數失敗。"
+msgid "享有優惠折扣！數量越多折扣越大！"
+msgstr "享有優惠折扣！數量越多折扣越大！"
+msgid "[移除]"
+msgstr "[移除]"
+
+msgid "移除優惠券"
+msgstr "移除優惠券"
+
+msgid "（移除）"
+msgstr "（移除）"
+
+msgid "移除中…"
+msgstr "移除中…"
+
+msgid "安全檢查失敗。"
+msgstr "安全檢查失敗。"
+
+msgid "折扣「%s」已從購物車中移除。"
+msgstr "折扣「%s」已從購物車中移除。"
+
+msgid "Exchange Product"
+msgstr "換購商品"
+
+msgid "Exchange Price (Y Item)"
+msgstr "換購加價金額 (Y 商品)"
+
+msgid "Set extra amount customer pays for each Y item. Enter 0 for free."
+msgstr "設定顧客每件 Y 商品需加購的金額。輸入 0 代表免費。"
+
+msgid "Search and select exchange products..."
+msgstr "搜尋並選擇換購商品..."
+
+msgid "Select exchange products. When conditions are met, these items are added to cart automatically at the configured exchange price."
+msgstr "選擇換購商品。當顧客符合條件時，這些商品會以設定的換購金額自動加入購物車。"
+
+msgid "Y items are free when exchange price is 0. Use Conditions tab to specify which products qualify."
+msgstr "當換購金額為 0 時，Y 商品免費。使用「條件」頁籤指定哪些商品符合資格。"
+
+msgid "Free Shipping for Bundle"
+msgstr "組合免費運送"
+
+msgid "Enable free shipping when bundle conditions are met"
+msgstr "當符合組合條件時啟用免費運送"
+
+msgid "Optionally limit free shipping to selected countries/regions."
+msgstr "可選擇限制免費運送僅適用於指定國家/地區。"
+
+msgid "Free Shipping Countries/Regions"
+msgstr "免費運送國家/地區"
+
+msgid "Leave empty to apply free shipping to all countries/regions."
+msgstr "留空表示免費運送適用所有國家/地區。"

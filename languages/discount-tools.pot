@@ -1,0 +1,67 @@
+# Copyright (C) 2025 Hugo Shih
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Discount Tools 1.0.6\n"
+"Report-Msgid-Bugs-To: https://hugoshih.eu.org/\n"
+"POT-Creation-Date: 2025-11-29 00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/class-settings.php
+msgid "Permission denied."
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "No settings data provided."
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Invalid JSON data."
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Invalid settings format."
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Settings imported successfully."
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "%d rules imported."
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Display Style"
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Badge"
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Text"
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Message Text Color"
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Color for custom discount messages."
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Message Font Size"
+msgstr ""
+
+#: includes/admin/class-settings.php
+msgid "Font size for custom messages (in pixels)."
+msgstr ""

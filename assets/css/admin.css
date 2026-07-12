@@ -1,0 +1,1082 @@
+/**
+ * Discount Tools Admin Styles
+ *
+ * @link       https://hugoshih.eu.org
+ * @since      1.0.0
+ *
+ * @package    Discount_Tools
+ * @subpackage Discount_Tools/assets/css
+ */
+
+/* ========================================================================
+   Rules List Table Styles
+   ======================================================================== */
+
+.discount-tools-admin {
+	margin: 0;
+}
+
+/* Status Badges */
+.dt-status-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	padding: 4px 10px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.dt-status-badge .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+}
+
+.dt-status-active {
+	background: #d4edda;
+	color: #155724;
+	border: 1px solid #c3e6cb;
+}
+
+.dt-status-inactive {
+	background: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+}
+
+/* Usage Display */
+.dt-usage-info {
+	min-width: 100px;
+}
+
+.dt-usage-text {
+	display: inline-block;
+	margin-bottom: 4px;
+	font-weight: 500;
+}
+
+.dt-usage-bar {
+	width: 100%;
+	height: 6px;
+	background: #e0e0e0;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.dt-usage-bar-fill {
+	height: 100%;
+	transition: width 0.3s ease;
+	border-radius: 3px;
+}
+
+.dt-usage-unlimited {
+	color: #646970;
+}
+
+.dt-usage-unlimited small {
+	font-weight: normal;
+	opacity: 0.7;
+}
+
+/* Date Range Display */
+.dt-date-range {
+	line-height: 1.6;
+}
+
+.dt-date-unlimited {
+	color: #646970;
+	font-style: italic;
+}
+
+.dt-date-status {
+	display: inline-block;
+	margin-top: 4px;
+	padding: 2px 6px;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.dt-date-scheduled {
+	background: #e7f3ff;
+	color: #0073aa;
+}
+
+.dt-date-expired {
+	background: #f8d7da;
+	color: #721c24;
+}
+
+/* Empty State */
+.discount-tools-empty-state {
+	text-align: center;
+	padding: 60px 20px;
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	border-radius: 4px;
+	margin-top: 20px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.discount-tools-empty-state .dt-empty-icon {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto 20px;
+	font-size: 80px;
+	color: #c3c4c7;
+}
+
+.discount-tools-empty-state h2 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 12px;
+	color: #1d2327;
+}
+
+.discount-tools-empty-state p {
+	font-size: 16px;
+	color: #646970;
+	margin-bottom: 24px;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Table Column Icons */
+.column-type .dashicons {
+	color: #646970;
+	margin-right: 4px;
+}
+
+/* Toggle Link Styling */
+.row-actions .dt-toggle-status {
+	color: #2271b1;
+	text-decoration: none;
+}
+
+.row-actions .dt-toggle-status:hover {
+	color: #135e96;
+}
+
+/* Loading Spinner for AJAX */
+.dt-ajax-loading {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 2px solid #f3f3f3;
+	border-top: 2px solid #2271b1;
+	border-radius: 50%;
+	animation: dt-spin 0.8s linear infinite;
+	margin-left: 8px;
+	vertical-align: middle;
+}
+
+@keyframes dt-spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+	.dt-status-badge {
+		padding: 3px 8px;
+		font-size: 11px;
+	}
+
+	.dt-usage-bar {
+		height: 4px;
+	}
+
+	.discount-tools-empty-state {
+		padding: 40px 15px;
+	}
+
+	.discount-tools-empty-state h2 {
+		font-size: 20px;
+	}
+
+	.discount-tools-empty-state p {
+		font-size: 14px;
+	}
+}
+
+/* ========================================================================
+   Rule Editor Styles
+   ======================================================================== */
+
+/* Editor Form */
+.dt-rule-editor-form {
+	margin-top: 20px;
+}
+
+.dt-rule-editor {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.dt-tab-content {
+	flex: 1;
+}
+
+/* Tab Panels */
+.dt-tab-panel {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+/* Cards */
+.dt-card {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.dt-card-header {
+	padding: 16px 20px;
+	border-bottom: 1px solid #e5e5e5;
+	background: #f9f9f9;
+}
+
+.dt-card-header h2 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.dt-card-header .description {
+	margin: 4px 0 0;
+	font-size: 13px;
+	color: #646970;
+}
+
+.dt-card-body {
+	padding: 20px;
+}
+
+.dt-card-info {
+	background: #f0f6fc;
+	border-color: #c3d9ec;
+}
+
+.dt-card-info .dt-card-header {
+	background: #e7f3ff;
+}
+
+/* Condition Builder */
+.dt-condition-groups {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.dt-condition-group {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 16px;
+}
+
+.dt-condition-group-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 16px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.dt-condition-group-header .dt-group-label {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.dt-condition-group-header h3 {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.dt-remove-group {
+	margin-left: auto;
+	color: #d63638;
+	text-decoration: none;
+	font-size: 13px;
+	padding: 4px 8px;
+	border-radius: 3px;
+	transition: background-color 0.15s ease-in-out;
+}
+
+.dt-remove-group:hover {
+	background: #f8d7da;
+	color: #721c24;
+}
+
+.dt-conditions-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.dt-condition-row {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+	padding: 12px;
+	background: #f9f9f9;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+}
+
+.dt-condition-fields {
+	flex: 1;
+	display: grid;
+	grid-template-columns: 2fr 1.5fr 2fr auto;
+	gap: 12px;
+	align-items: end;
+}
+
+.dt-condition-actions-field {
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.dt-condition-field {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.dt-condition-field label {
+	font-size: 12px;
+	font-weight: 600;
+	color: #50575e;
+}
+
+.dt-condition-field select,
+.dt-condition-field input {
+	width: 100%;
+	padding: 6px 10px;
+	font-size: 13px;
+	line-height: 1.5;
+	border: 1px solid #8c8f94;
+	border-radius: 3px;
+	background: #fff;
+}
+
+.dt-condition-value-field .dt-condition-value-select,
+.dt-condition-value-field .select2-container {
+	width: 100% !important;
+	min-width: 0;
+	background: white;
+}
+
+.button.button.dt-remove-condition,
+.button.button.dt-remove-group { 
+	color:red !important;
+}
+
+/*
+ * 修正「下方重複顯示」：Select2 會把原生 <select> 變成 .select2-hidden-accessible。
+ * 目前頁面上有 CSS 覆蓋到它，導致原生 multiple select 仍然可見。
+ * 這裡用更高優先級 + !important 強制隱藏。
+ */
+.dt-condition-value-field .dt-condition-value-select.select2-hidden-accessible {
+	border: 0 !important;
+	clip: rect(0 0 0 0) !important;
+	-webkit-clip-path: inset(50%) !important;
+	clip-path: inset(50%) !important;
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;
+}
+
+.dt-condition-value-field .select2-container .select2-selection--multiple {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	background: #fff;
+	cursor: text;
+	min-height: 32px;
+	border: 1px solid #8c8f94;
+	border-radius: 3px;
+}
+
+.dt-condition-value-field .select2-container--default.select2-container--focus .select2-selection--multiple {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+}
+
+.dt-condition-value-field .select2-selection--multiple .select2-selection__rendered {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	padding: 4px;
+	align-items: center;
+	margin: 0;
+	list-style: none;
+}
+
+.dt-condition-value-field .select2-selection--multiple .select2-search__field {
+	min-height: 22px;
+	width:200px !important;
+	line-height: 1.4;
+	padding: 0 4px;
+	margin-top: 0;
+	color: #2c3338;
+	border: 0 !important;
+	box-shadow: none !important;
+	background: transparent !important;
+	outline: none !important;
+}
+
+.dt-condition-value-field .select2-selection--multiple .select2-search__field::placeholder {
+	color: #8c8f94;
+	opacity: 1;
+}
+
+.dt-condition-value-field .select2-search--dropdown .select2-search__field {
+	color: #2c3338;
+}
+
+.dt-condition-value-field .select2-search--dropdown .select2-search__field::placeholder {
+	color: #8c8f94;
+	opacity: 1;
+}
+
+.dt-condition-value-field .select2-selection--multiple .select2-search--inline {
+	display: inline-flex;
+	align-items: center;
+	margin: 0;
+}
+
+/* Select2 多選標籤（使用內建可移除按鈕，行為跟 WooCommerce 類似） */
+.dt-condition-value-field .select2-selection__choice {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	padding: 4px 8px;
+	background: #f0f0f1;
+	border: 1px solid #c3c4c7;
+	border-radius: 3px;
+	font-size: 12px;
+	line-height: 1.4;
+	color: #2c3338;
+	margin: 2px;
+}
+
+.dt-condition-value-field .select2-selection__choice__remove {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1;
+	color: #787c82;
+	cursor: pointer;
+	border: 0;
+	background: transparent;
+}
+
+.dt-condition-value-field .select2-selection__choice__remove:hover {
+	color: #d63638;
+}
+
+/* Select2 下拉結果列表樣式 */
+.dt-condition-value-field .select2-results__option {
+	padding: 8px 12px;
+	font-size: 13px;
+	line-height: 1.6;
+	color: #2c3338;
+	background: #fff;
+	cursor: pointer;
+}
+
+.dt-condition-value-field .select2-results__option--highlighted {
+	background: #f0f6fc;
+	color: #1d2327;
+}
+
+.dt-condition-value-field .select2-results__option--selected {
+	background: #e5f5ff;
+	color: #0073aa;
+	font-weight: 500;
+}
+
+.dt-condition-value-field .select2-results__option[aria-disabled="true"] {
+	color: #8c8f94;
+	cursor: not-allowed;
+	background: #fafafa;
+}
+
+.dt-condition-field select:focus,
+.dt-condition-field input:focus {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+	outline: 2px solid transparent;
+}
+
+.dt-condition-help {
+	grid-column: 1 / -1;
+	padding: 8px 12px;
+	background: #f0f6fc;
+	border-left: 3px solid #2271b1;
+	border-radius: 3px;
+	font-size: 12px;
+	color: #2c3338;
+}
+
+.dt-remove-condition {
+	color: #d63638;
+	text-decoration: none;
+	font-size: 13px;
+	padding: 6px 12px;
+	border-radius: 3px;
+	align-self: center;
+	transition: background-color 0.15s ease-in-out;
+	white-space: nowrap;
+	margin-left: 0;
+}
+
+.dt-remove-condition:hover {
+	background: #f8d7da;
+	color: #721c24;
+}
+
+.dt-condition-group-actions {
+	margin-top: 12px;
+}
+
+.dt-add-condition,
+.dt-add-group {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	padding: 6px 12px;
+	font-size: 13px;
+	color: #2271b1;
+	text-decoration: none;
+	border: 1px solid #2271b1;
+	border-radius: 3px;
+	background: #fff;
+	transition: all 0.15s ease-in-out;
+}
+
+.dt-add-condition:hover,
+.dt-add-group:hover {
+	background: #2271b1;
+	color: #fff;
+}
+
+.dt-or-separator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0;
+	position: relative;
+}
+
+.dt-or-separator::before,
+.dt-or-separator::after {
+	content: '';
+	flex: 1;
+	height: 1px;
+	background: #dcdcde;
+}
+
+.dt-or-separator span {
+	padding: 0 16px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #646970;
+	text-transform: uppercase;
+	background: #fff;
+}
+
+.dt-condition-builder-actions {
+	margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+	.dt-condition-fields {
+		grid-template-columns: 1fr;
+	}
+
+	.dt-condition-row {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.dt-remove-condition {
+		align-self: flex-start;
+		margin-top: 0;
+	}
+}
+
+/* Form Fields */
+.dt-form-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.dt-form-field {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.dt-field-full {
+	grid-column: 1 / -1;
+}
+
+.dt-form-label {
+	display: block;
+	font-weight: 600;
+	font-size: 13px;
+	color: #1d2327;
+	line-height: 1.4;
+}
+
+.dt-form-label .required {
+	color: #d63638;
+	margin-left: 2px;
+}
+
+.dt-form-input {
+	width: 100%;
+	padding: 8px 12px;
+	font-size: 14px;
+	line-height: 1.5;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: 0 0 0 transparent;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.dt-form-input:focus {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+	outline: 2px solid transparent;
+}
+
+.dt-form-input[type="number"] {
+	max-width: 200px;
+}
+
+.dt-form-input[type="datetime-local"] {
+	max-width: 300px;
+}
+
+textarea.dt-form-input {
+	resize: vertical;
+	min-height: 80px;
+}
+
+select.dt-form-input {
+	max-width: 300px;
+	padding-right: 30px;
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-position: right 8px center;
+	background-size: 16px;
+	appearance: none;
+}
+
+.dt-form-description {
+	font-size: 13px;
+	line-height: 1.5;
+	color: #646970;
+	margin: 0;
+}
+
+/* Checkbox */
+.dt-checkbox-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.dt-checkbox-label {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+}
+
+.dt-checkbox-label input[type="checkbox"] {
+	margin: 0;
+	width: 18px;
+	height: 18px;
+}
+
+.dt-checkbox-label span {
+	font-size: 14px;
+	color: #1d2327;
+}
+
+/* Tips List */
+.dt-tips-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.dt-tips-list li {
+	padding: 12px 0;
+	border-bottom: 1px solid #e0e0e0;
+	line-height: 1.6;
+}
+
+.dt-tips-list li:last-child {
+	border-bottom: none;
+}
+
+.dt-tips-list strong {
+	color: #2271b1;
+}
+
+/* Date Info */
+.dt-date-info {
+	margin-top: 15px;
+}
+
+.dt-date-info .notice {
+	margin: 0;
+}
+
+.dt-date-info .dashicons {
+	vertical-align: middle;
+}
+
+/* Discount Type Help */
+.dt-discount-type-help {
+	margin-top: 15px;
+	padding: 12px;
+	background: #f9f9f9;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+}
+
+.dt-help-item {
+	display: none;
+	padding: 8px 0;
+	line-height: 1.6;
+	color: #1d2327;
+}
+
+.dt-help-item .dashicons {
+	color: #2271b1;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+/* Actions Bar */
+.dt-actions-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background: #f9f9f9;
+	border: 1px solid #ccd0d4;
+	border-radius: 4px;
+	gap: 15px;
+}
+
+.dt-actions-left,
+.dt-actions-right {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.dt-editor-actions {
+	position: sticky;
+	bottom: 20px;
+	z-index: 10;
+}
+
+@media screen and (max-width: 782px) {
+	.dt-form-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.dt-actions-bar {
+		flex-direction: column;
+	}
+
+	.dt-actions-left,
+	.dt-actions-right {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.dt-actions-left .button,
+	.dt-actions-right .button {
+		width: 100%;
+	}
+}
+
+/* ========================================================================
+   Settings Page Styles
+   ======================================================================== */
+
+.dt-settings-section {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.dt-settings-section h2 {
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.dt-settings-row {
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.dt-settings-row:last-child {
+	border-bottom: none;
+}
+
+.dt-settings-label {
+	flex: 0 0 200px;
+	font-weight: 600;
+}
+
+.dt-settings-field {
+	flex: 1;
+}
+
+@media screen and (max-width: 782px) {
+	.dt-settings-row {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.dt-settings-label {
+		margin-bottom: 8px;
+	}
+}
+
+/* ========================================================================
+   Utility Classes
+   ======================================================================== */
+
+.dt-text-muted {
+	color: #646970;
+}
+
+.dt-text-danger {
+	color: #d63638;
+}
+
+.dt-text-success {
+	color: #00a32a;
+}
+
+.dt-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.dt-badge-primary {
+	background: #e7f3ff;
+	color: #0073aa;
+}
+
+.dt-badge-success {
+	background: #d4edda;
+	color: #155724;
+}
+
+.dt-badge-warning {
+	background: #fff3cd;
+	color: #856404;
+}
+
+.dt-badge-danger {
+	background: #f8d7da;
+	color: #721c24;
+}
+
+/* ========================================================================
+   Gift Products Tag Style
+   ======================================================================== */
+
+.dt-gift-products-selected {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding: 8px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.dt-gift-tag {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	padding: 6px 12px;
+	background: #e7f3ff;
+	border: 1px solid #0073aa;
+	border-radius: 3px;
+	font-size: 13px;
+	line-height: 1.4;
+	color: #0073aa;
+}
+
+.dt-gift-sku {
+	font-size: 11px;
+	opacity: 0.8;
+	font-weight: 600;
+}
+
+.dt-gift-remove {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 18px;
+	height: 18px;
+	margin-left: 4px;
+	padding: 0;
+	background: transparent;
+	border: none;
+	border-radius: 50%;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1;
+	color: #0073aa;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.dt-gift-remove:hover {
+	background: #0073aa;
+	color: #fff;
+}
+
+.dt-gift-product-search {
+	margin-top: 8px;
+}
+
+/* Inline search field without dropdown chrome */
+.dt-gift-product-search + .select2 {
+	width: 100% !important;
+}
+
+/* Gift Product Search Results */
+.dt-gift-search-wrapper {
+	margin-top: 10px;
+	position: relative;
+}
+
+.dt-gift-search-wrapper input[type="text"] {
+	width: 100%;
+	padding: 8px 12px;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.dt-gift-search-results {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background: white;
+	border: 1px solid #dcdcde;
+	border-top: none;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	max-height: 250px;
+	overflow-y: auto;
+	z-index: 1000;
+	margin-top: -1px;
+}
+
+.dt-search-result-item {
+	padding: 10px 12px;
+	cursor: pointer;
+	border-bottom: 1px solid #f0f0f1;
+	transition: background 0.15s ease;
+}
+
+.dt-search-result-item:hover {
+	background: #f6f7f7;
+}
+
+.dt-search-result-item:last-child {
+	border-bottom: none;
+}
+
+.dt-search-no-results {
+	padding: 10px 12px;
+	color: #646970;
+	text-align: center;
+	font-style: italic;
+}
+
+/* Hide Select2 completely */
+.dt-gift-product-search {
+	display: none !important;
+}
+
+.dt-gift-product-search + .select2-container {
+	display: none !important;
+}
+
+.dt-bxgy-gift-products .select2-container .select2-dropdown {
+	background: #fff;
+	border: 1px solid #d2d6dc;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+	max-height: 280px;
+	overflow: hidden;
+}
+
+.dt-bxgy-gift-products .select2-container .select2-results__options {
+	max-height: 240px;
+	overflow-y: auto;
+	background: #fff;
+}
+
+.dt-bxgy-gift-products .select2-results__option {
+	padding: 8px 10px;
+}
+
+.dt-bxgy-gift-products .select2-results__option--highlighted {
+	background: #f0f6ff;
+}
